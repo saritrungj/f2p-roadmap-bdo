@@ -1,0 +1,70 @@
+# Patch watcher: checks the Asia, Korea and Global Lab notice boards, asks Claude to
+# summarize new patch notes in Thai + English, and opens a pull request with the drafts.
+# Nothing is published until a person reviews the PR and runs `npm run patch:approve`.
+#
+# Setup: Settings > Secrets and variables > Actions > New repository secret
+#   ANTHROPIC_API_KEY = your Anthropic API key
+name: Patch watch
+
+on:
+  schedule:
+    # Korea patches Wednesday, Asia Thursday, Global Lab Friday (KST / UTC+8 mornings).
+    - cron: "0 */3 * * 3,4,5" # every 3 hours Wed-Fri (UTC)
+    - cron: "0 6 * * 0,1,2,6" # once a day otherwise
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max new notices per region"
+        default: "3"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: patch-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - run: npm ci --ignore-scripts
+
+      - name: Find and summarize new patch notes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/patch-watch/watch.ts --limit "${{ github.event.inputs.limit || '3' }}"
+
+      - name: Open a review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: patch-watch/drafts
+          delete-branch: true
+          title: "Patch watch: new drafts to review"
+          commit-message: "patch-watch: new AI drafts (unreviewed)"
+          body: |
+            New patch-note drafts were written by Claude from the official boards.
+
+            Before merging, for each file in `site/patch-watch/drafts/`:
+            1. Open the source URL and check the summary against it.
+            2. Fix anything wrong directly in the JSON.
+            3. Run `npm run patch:approve -- <id>` (or `-- --reject <id>`) and push.
+
+            Korea and Global Lab items are spoilers and may never reach Asia.
+          add-paths: |
+            site/patch-watch/state.json
+            site/patch-watch/drafts/*.json
+            site/app/data/patch-feed/*.json

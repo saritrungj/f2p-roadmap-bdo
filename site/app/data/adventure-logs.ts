@@ -1,0 +1,440 @@
+// Adventure Logs that can be done in the game as of November 2026 (Asia server).
+// Rewards: official Adventurer's Guide (wiki 328, edited 2026-10-28) where it lists them;
+// task steps: player guides (BlackDesertFoundry, GrumpyGreen), marked community in sources.
+// Removed logs (Halloween Event Log, removed 15 Oct 2026) are not listed.
+import type { AdventureLog } from "./adventure-logs-types";
+
+const WIKI = { label: "Adventurer's Guide: Adventure Log", url: "https://www.naeu.playblackdesert.com/en-US/Wiki?wikiNo=328", date: "2026-10-28" };
+const BDF = (path: string, date: string, label = "BlackDesertFoundry") => ({ label, url: `https://www.blackdesertfoundry.com/${path}`, date, community: true });
+
+export const LOGS: AdventureLog[] = [
+  /* ------------------------------------------------------------------ */
+  {
+    id: "igor",
+    group: "core",
+    order: 1,
+    effort: 3,
+    icon: { item: 40653 },
+    name: { th: "Igor Bartali's Adventures", en: "Igor Bartali's Adventures" },
+    why: { th: "แหล่งค่าสถานะถาวรทั้งครอบครัวที่ใหญ่ที่สุด ทำก่อนเล่มอื่น", en: "The biggest source of permanent family stats. Do it before anything else." },
+    unlock: { th: "Lv 51 + จบเควสหลัก Calpheon หรือ [Special Growth] Fughar's Memorandum บท 6 แล้วรับ Adventure Log: Traces of a Great Adventurer จาก Black Spirit", en: "Lv 51 + the Calpheon main quest or [Special Growth] Fughar's Memorandum Ch. 6, then accept Adventure Log: Traces of a Great Adventurer from the Black Spirit" },
+    start: { th: "ESC > Adventure (F5) > Adventure Log Bookshelf > Igor Bartali's Adventures", en: "ESC > Adventure (F5) > Adventure Log Bookshelf > Igor Bartali's Adventures" },
+    total: { th: "ราว AP +6, DP +6, HP +877, Stamina +438, น้ำหนัก +28 LT, Accuracy +29, Evasion +8, ช่องกระเป๋า +4, Advice of Valks (+100)", en: "About AP +6, DP +6, HP +877, Stamina +438, Weight +28 LT, Accuracy +29, Evasion +8, Inventory +4, Advice of Valks (+100)" },
+    note: { th: "HP, Stamina, น้ำหนัก, Accuracy ตรงกับ Wiki ทางการ ส่วน AP/DP เป็นตัวเลขจากไกด์ผู้เล่น (Wiki ทางการแสดงแถวไม่ครบ) ตั้งแต่ 8 ต.ค. 2026 เควส Hero of Calpheon พาไป Lv 56 ทำให้ปลดล็อกได้เร็วขึ้น", en: "HP, Stamina, Weight and Accuracy match the official wiki. AP/DP are player-guide counts (the official wiki is missing rows). Since 8 Oct 2026 Hero of Calpheon takes you to Lv 56, so this unlocks sooner." },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม I", en: "Volume I" }, reward: { th: "HP +60, Stamina +30", en: "HP +60, Stamina +30" }, stat: true, how: [
+        { th: "ล่า Cyclops (ตะวันออกเฉียงใต้ของ Trent)", en: "Defeat a Cyclops (southeast of Trent)." },
+        { th: "ตกปลาเกรดเหลือง 1 ตัว (ชายหาด Velia)", en: "Catch a yellow-grade fish (Velia beach)." },
+        { th: "ได้ความรู้ Earth Root Nymph (ถ้ำใต้ทะเลสาบ Crioville)", en: "Gain Earth Root Nymph knowledge (cave south of Crioville lake)." },
+      ] },
+      { id: "v2", title: { th: "เล่ม II", en: "Volume II" }, reward: { th: "AP +1, DP +1, HP +60, Stamina +30, Accuracy +4, กระเป๋า +1", en: "AP +1, DP +1, HP +60, Stamina +30, Accuracy +4, Inventory +1" }, stat: true, how: [
+        { th: "ล่าและชำแหละกวาง Elk (ตะวันตกเฉียงเหนือของ Behr)", en: "Kill and butcher an elk (northwest of Behr)." },
+        { th: "ล่า Giant Brown Bear ด้วยปืน Matchlock (ใกล้ Trent)", en: "Matchlock-hunt a Giant Brown Bear (near Trent)." },
+        { th: "ล่าและชำแหละจระเข้ด้วย Matchlock (ทะเลสาบ Kaia)", en: "Matchlock-hunt and butcher a crocodile (Lake Kaia)." },
+        { th: "ส่ง Magic Tanning Knife ให้ Likke Behr", en: "Give a Magic Tanning Knife to Likke Behr." },
+        { th: "เรียนความรู้ Trent Carpentry Tool (Harden ใน Calpheon ใช้ Energy 10)", en: "Learn Trent Carpentry Tool knowledge (Harden, Calpheon, 10 Energy)." },
+        { th: "ล่ามอนสเตอร์ใน Treant Forest 20 ตัว", en: "Kill 20 monsters in Treant Forest." },
+        { th: "กดตอไม้เรืองแสงที่ Trent", en: "Interact with the glowing stump in Trent." },
+      ] },
+      { id: "v3", title: { th: "เล่ม III", en: "Volume III" }, reward: { th: "DP +3, HP +60, Stamina +30", en: "DP +3, HP +60, Stamina +30" }, stat: true, how: [
+        { th: "ล่าอีกา 1 ตัวที่ Hexe Sanctuary", en: "Kill 1 crow at Hexe Sanctuary." },
+        { th: "สำรวจอาคารต้องสาป (คุยกับผู้จัดการ Node Witch's Chapel)", en: "Search the cursed building (talk to the Witch's Chapel node manager)." },
+        { th: "ล่า Green Orc Skeleton Warrior (Elite)", en: "Kill an elite Green Orc Skeleton Warrior." },
+        { th: "เอา Witch's Earring ไปให้ Becker ดู", en: "Show a Witch's Earring to Becker." },
+        { th: "ล่า Skeleton ที่ Hexe 20 ตัว", en: "Kill 20 Skeletons at Hexe." },
+      ] },
+      { id: "v4", title: { th: "เล่ม IV", en: "Volume IV" }, reward: { th: "HP +60, Stamina +30, Evasion +2", en: "HP +60, Stamina +30, Evasion +2" }, stat: true, how: [
+        { th: "ใช้จอบเก็บ Silver Azalea 5 ดอก (Hexe)", en: "Gather 5 Silver Azalea with a hoe (Hexe)." },
+        { th: "ทำ Distilled Water: ซื้อขวดเปล่าจาก Indri ตักน้ำที่แม่น้ำ แล้ว Heat", en: "Make Distilled Water: buy an empty bottle from Indri, fill it at a river, then Heat it." },
+        { th: "ได้ Fairy's Breath (ของแถมจากการเก็บสมุนไพร)", en: "Obtain Fairy's Breath (a gathering byproduct)." },
+        { th: "ใช้ Fluid Collector เก็บเลือด Ogre (Mansha)", en: "Collect Ogre blood with a Fluid Collector (Mansha)." },
+      ] },
+      { id: "v5", title: { th: "เล่ม V", en: "Volume V" }, reward: { th: "AP +1, HP +30, Stamina +30, Accuracy +5", en: "AP +1, HP +30, Stamina +30, Accuracy +5" }, stat: true, how: [
+        { th: "ทำ Highly Concentrated Herbal Juice 5 ขวด", en: "Make 5 Highly Concentrated Herbal Juice." },
+        { th: "ล่า Rhutum 30 ตัว", en: "Kill 30 Rhutum." },
+        { th: "เก็บกะหล่ำปลี 1 หัว (Gabino Farm)", en: "Gather 1 Cabbage (Gabino Farm)." },
+        { th: "กิน Balenos Meal", en: "Eat a Balenos Meal." },
+        { th: "จบเล่มนี้แล้วนับเป็นบทที่ 1 ของ Emma Bartali's Journal ด้วย", en: "Finishing this volume also completes Emma Bartali's Journal Ch. 1." },
+      ] },
+      { id: "v6", title: { th: "เล่ม VI", en: "Volume VI" }, reward: { th: "AP +1, HP +60, Stamina +35, Accuracy +4, กระเป๋า +1", en: "AP +1, HP +60, Stamina +35, Accuracy +4, Inventory +1" }, stat: true, how: [
+        { th: "เข้าหรือสร้างกิลด์", en: "Join or create a guild." },
+        { th: "ล่า Troll 10 ตัว (Quint Hill)", en: "Kill 10 Trolls (Quint Hill)." },
+        { th: "เรียนความรู้พ่อค้าในเมือง Calpheon ให้ครบ", en: "Learn all Calpheon City merchant knowledge." },
+        { th: "พิมพ์ 12 ในแชท General", en: "Type 12 in General chat." },
+        { th: "เช่า Storage Container ที่ Calpheon แล้วเอาให้ Valks ดู", en: "Rent a Storage Container in Calpheon and show it to Valks." },
+        { th: "จับม้าป่า 1 ตัว", en: "Tame a wild horse." },
+      ] },
+      { id: "v7", title: { th: "เล่ม VII", en: "Volume VII" }, reward: { th: "DP +1, HP +60, Stamina +40", en: "DP +1, HP +60, Stamina +40" }, stat: true, how: [
+        { th: "เล่นมินิเกม Medicinal Herb Brewer ที่ Florin", en: "Play the Medicinal Herb Brewer minigame in Florin." },
+        { th: "เก็บ Everlasting Herb", en: "Gather an Everlasting Herb." },
+        { th: "พาลูกแกะหลงไปหา Murana Lynch (ต้องมี Amity 10)", en: "Carry the Lost Lamb to Murana Lynch (needs 10 amity)." },
+        { th: "มอบ Serap's Necklace ระดับ PRI ให้ Islin Bartali", en: "Give a PRI Serap's Necklace to Islin Bartali." },
+      ] },
+      { id: "v8", title: { th: "เล่ม VIII", en: "Volume VIII" }, reward: { th: "HP +90, น้ำหนัก +4 LT, Accuracy +5, Evasion +1", en: "HP +90, Weight +4 LT, Accuracy +5, Evasion +1" }, stat: true, how: [
+        { th: "ขับเกวียน 4 ล้อคนเดียว", en: "Ride a 4-wheel wagon alone." },
+        { th: "ทำ Cold Draft Beer 1 ขวด", en: "Make 1 Cold Draft Beer." },
+        { th: "เก็บเลือด Weasel (Velia)", en: "Collect Weasel Blood (Velia)." },
+        { th: "ปรุงยา Wise Man's Blood (Alchemy)", en: "Make Wise Man's Blood (Alchemy)." },
+        { th: "ยิงปืนใหญ่ใส่หุ่น (เช่าจาก Tranan Underfoe ใช้ Energy 20)", en: "Fire a cannon at dummies (rent from Tranan Underfoe, 20 Energy)." },
+        { th: "คุยกับ Black Spirit", en: "Talk to the Black Spirit." },
+      ] },
+      { id: "v9", title: { th: "เล่ม IX", en: "Volume IX" }, reward: { th: "HP +35, Stamina +35, Accuracy +6, น้ำหนัก +6 LT", en: "HP +35, Stamina +35, Accuracy +6, Weight +6 LT" }, stat: true, how: [
+        { th: "รวม Gem Studded Ornament 3 ชิ้น (ได้จากถุงของ Yaz)", en: "Combine 3 Gem Studded Ornaments (from Yaz's pouch)." },
+        { th: "สร้าง Balenos Traditional Cooking Utensil (Tool Workshop Lv 1)", en: "Craft a Balenos Traditional Cooking Utensil (Lv 1 Tool Workshop)." },
+        { th: "ล่า Sausan Guard 10 ตัว", en: "Kill 10 Sausan Guards." },
+        { th: "ชนะ Knowledge Battle กับ Haley ที่ Altinova (ใช้ Energy ราว 105)", en: "Win the Knowledge Battle with Haley in Altinova (about 105 Energy)." },
+      ] },
+      { id: "v10", title: { th: "เล่ม X", en: "Volume X" }, reward: { th: "HP +72, Stamina +35, Evasion +2, กระเป๋า +1, Advice of Valks (+100)", en: "HP +72, Stamina +35, Evasion +2, Inventory +1, Advice of Valks (+100)" }, stat: true, how: [
+        { th: "ล่า Helm Golem (Elite/Hard)", en: "Kill the Elite/Hard Helm Golem." },
+        { th: "ได้ความรู้หมวด Creatures of Mediah ครบ", en: "Complete the Creatures of Mediah knowledge category." },
+        { th: "ใช้ Cartian Spell (Forbidden Book 5 เล่ม) เรียก Skeleton King แล้วล่า", en: "Summon and kill the Skeleton King with a Cartian Spell (5 Forbidden Books)." },
+        { th: "ล่า Ancient Weapon 5 ตัว (Hasrah)", en: "Kill 5 Ancient Weapons (Hasrah)." },
+        { th: "คุยกับ Ahon Kirus ที่ Tarif แล้วคุย Black Spirit รับ Advice of Valks (+100)", en: "Talk to Ahon Kirus in Tarif, then the Black Spirit for Advice of Valks (+100)." },
+      ] },
+      { id: "v11", title: { th: "เล่ม XI", en: "Volume XI" }, reward: { th: "HP +106, Stamina +35, น้ำหนัก +5 LT", en: "HP +106, Stamina +35, Weight +5 LT" }, stat: true, how: [
+        { th: "ทำ Potato Crate 1 ลัง", en: "Craft a Potato Crate." },
+        { th: "ต่อ Node Pilgrim's Haven กับ Sand Grain Bazaar", en: "Connect Pilgrim's Haven to Sand Grain Bazaar." },
+        { th: "ดื่ม Bag of Muddy Water ในทะเลทราย Valencia", en: "Drink a Bag of Muddy Water in the Valencia desert." },
+        { th: "กิน Seafood Cron Meal", en: "Eat a Seafood Cron Meal." },
+        { th: "ใช้ Book of Training ตีหุ่นฝึก (Jamey Drucker 1M Silver)", en: "Use a Book of Training on training dummies (Jamey Drucker, 1M silver)." },
+      ] },
+      { id: "v12", title: { th: "เล่ม XII", en: "Volume XII" }, reward: { th: "AP +1, DP +1, Stamina +35, Evasion +1", en: "AP +1, DP +1, Stamina +35, Evasion +1" }, stat: true, how: [
+        { th: "ส่ง Ancient Creature's Fragment (ดรอปจาก Kutum หรือซื้อตลาด) ให้ Desalam", en: "Hand an Ancient Creature's Fragment (Kutum drop or market) to Desalam." },
+        { th: "ประกอบ Ancient Explorer's Compass", en: "Assemble an Ancient Explorer's Compass." },
+        { th: "ใช้ Desert Tent Tool", en: "Use a Desert Tent Tool." },
+        { th: "ขึ้นและลงอูฐ (เควสสาย Bochlo Lv 55+)", en: "Mount and dismount a camel (Bochlo questline, Lv 55+)." },
+      ] },
+      { id: "v13", title: { th: "เล่ม XIII", en: "Volume XIII" }, reward: { th: "HP +76, Accuracy +5, Evasion +1, กระเป๋า +1, น้ำหนัก +7 LT", en: "HP +76, Accuracy +5, Evasion +1, Inventory +1, Weight +7 LT" }, stat: true, how: [
+        { th: "ล่า Sand Spirit (ตะวันตกเฉียงเหนือของ Ibellab)", en: "Kill a Sand Spirit (northwest of Ibellab)." },
+        { th: "ชนะ Shakatu ในเกม Yar!", en: "Beat Shakatu at Yar!." },
+        { th: "ล่า Gahaz Bandit 10 ตัว", en: "Kill 10 Gahaz Bandits." },
+        { th: "คุยกับ Serazad ใน Shakatu's Villa (Villa Pass 10M หรือ Secret Book of Old Moon)", en: "Talk to Serazad in Shakatu's Villa (Villa Pass 10M or a Secret Book of Old Moon)." },
+        { th: "คุยกับ Torio (ท่าเรือตะวันตกของ Runn)", en: "Talk to Torio (docks west of Runn)." },
+        { th: "ขึ้นและลงช้างจิ๋ว (สาย Bochlo ราว 40M + ขวดเปล่า 10)", en: "Mount and dismount a miniature elephant (Bochlo line, about 40M + 10 Empty Bottles)." },
+      ] },
+      { id: "v14", title: { th: "เล่ม XIV", en: "Volume XIV" }, reward: { th: "AP +2, HP +35, Stamina +73", en: "AP +2, HP +35, Stamina +73" }, stat: true, how: [
+        { th: "ได้ความรู้ Lonely Palieva (Aakman)", en: "Gain Lonely Palieva knowledge (Aakman)." },
+        { th: "ส่ง Nouver's Desert Tyrant's Mane (ดรอปจาก Nouver หรือซื้อตลาด) ให้ Atui Balacs", en: "Hand Nouver's Desert Tyrant's Mane (Nouver drop or market) to Atui Balacs." },
+        { th: "เรียนความรู้ Node ของ Valencia ให้ครบ", en: "Learn all Valencia node knowledge." },
+        { th: "คุยกับ King Sahazad Neser ที่เมือง Valencia", en: "Talk to King Sahazad Neser in Valencia City." },
+      ] },
+      { id: "v15", title: { th: "เล่ม XV", en: "Volume XV" }, reward: { th: "HP +73, น้ำหนัก +6 LT, Evasion +1", en: "HP +73, Weight +6 LT, Evasion +1" }, stat: true, how: [
+        { th: "ล่าสิงโต Valencia เก็บเนื้อสิงโต 10 ชิ้น", en: "Hunt Valencian Lions and collect 10 lion meat." },
+        { th: "จบสายเควส Palm Forest Boy (Yasum ที่ Arehaza, Lv 55+, Amity กับ Dudora 250, 11 เควส)", en: "Finish the Palm Forest Boy questline (Yasum, Arehaza; Lv 55+, 250 amity with Dudora, 11 quests)." },
+        { th: "กดวัตถุโบราณใต้ปราสาท Valencia", en: "Interact with the artifact under Valencia Castle." },
+        { th: "กดวัตถุที่กำแพงปราสาท (หอด้านหลัง)", en: "Interact with the Castle Wall object (rear tower)." },
+      ] },
+    ],
+    sources: [WIKI, BDF("adventure-log/", "2025-08-29", "BDF: Igor Bartali guide"), { label: "GrumpyGreen: Igor Bartali", url: "https://grumpygreen.cricket/?p=90070", date: "2025-08-10", community: true }],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "emma",
+    group: "core",
+    order: 2,
+    effort: 2,
+    name: { th: "Emma Bartali's Journal", en: "Emma Bartali's Journal" },
+    why: { th: "ของตีบวก Kharazad PEN ถึง OCT ฟรี (มาพร้อม HYPERBOOST 30 ก.ค. 2026)", en: "Free materials to push Kharazad accessories from PEN to OCT (added with HYPERBOOST, 30 Jul 2026)." },
+    unlock: { th: "ไม่มีเงื่อนไข อยู่ในชั้น Olvia Academy Journal", en: "No requirement. It sits on the Olvia Academy Journal shelf." },
+    start: { th: "ESC > Adventure (F5) > Adventure Log Bookshelf > Olvia Academy Journal > Emma Bartali's Journal", en: "ESC > Adventure (F5) > Adventure Log Bookshelf > Olvia Academy Journal > Emma Bartali's Journal" },
+    total: { th: "Advice of Valks (+180) x2 และ (+210) x2, Ancient Hammer PEN x10 และ HEX x10, Ancient Black Stone PEN x2, HEX x2, SEP x2, Essence of Dawn x100 (ไม่มีค่าสถานะครอบครัว)", en: "Advice of Valks (+180) x2 and (+210) x2, Ancient Hammer PEN x10 and HEX x10, Ancient Black Stone PEN x2, HEX x2, SEP x2, Essence of Dawn x100 (no family stats)" },
+    note: { th: "บท 1-12 ทำสลับลำดับได้ บท 13 ต้องรับบท 1-12 ครบก่อน ตั้งแต่ 22 ต.ค. 2026 บท 7-8 ลดเหลือ Calamity 1 และเลิกใช้ Light Orb (สู้ด้วยเกียร์ตัวเอง) บท 9-12 ประกาศทางการบอก Hwanghae (Party) Hard แต่ไกด์ผู้เล่นบอก Dark Rift ให้เช็กในเกม ของที่ไม่ใช้เผาเป็น Cron Stone ได้", en: "Ch. 1-12 can be done in any order; Ch. 13 needs all 12 claimed. Since 22 Oct 2026 Ch. 7-8 only need Calamity 1 and Light Orbs are gone (fight with your own gear). For Ch. 9-12 the official note says Hwanghae (Party) Hard, player guides say Dark Rift: check in game. Unused stones and hammers can be heated into Cron Stones." },
+    volumes: [
+      { id: "c1", title: { th: "บท 1: จบ Igor เล่ม V", en: "Ch. 1: Finish Igor Volume V" }, reward: { th: "Advice of Valks (+180) x2", en: "Advice of Valks (+180) x2" }, how: [{ th: "ทำ Igor Bartali's Adventures ให้จบเล่ม V แล้วกดรับ", en: "Complete Igor Bartali's Adventures Volume V, then claim." }] },
+      { id: "c2", title: { th: "บท 2: Crow's Mercenary", en: "Ch. 2: Crow's Mercenary" }, reward: { th: "Ancient Hammer PEN x5", en: "Ancient Hammer PEN x5" }, how: [{ th: "จบเควส [Crow's Nest] Crow's Mercenary (Lv 56+ สาย Pit of the Undying)", en: "Complete [Crow's Nest] Crow's Mercenary (Lv 56+, Pit of the Undying line)." }] },
+      { id: "c3", title: { th: "บท 3: Undying Crow's Insignia", en: "Ch. 3: Undying Crow's Insignia" }, reward: { th: "Ancient Black Stone PEN x1", en: "Ancient Black Stone PEN x1" }, how: [{ th: "จบเควส [Promotion] DUO (II) Undying Crow's Insignia (ตีบอส Pit of the Undying)", en: "Complete [Promotion] DUO (II) Undying Crow's Insignia (Pit of the Undying bosses)." }] },
+      { id: "c4", title: { th: "บท 4: เควสค่าสถานะ Tungrad และ Papu", en: "Ch. 4: Tungrad and Papu stat quests" }, reward: { th: "Essence of Dawn x50", en: "Essence of Dawn x50" }, how: [{ th: "จบเควส Tungrad School (Kamasylvia) และ A Gift for Papu (O'dyllita)", en: "Complete Tungrad School (Kamasylvia) and A Gift for Papu (O'dyllita)." }] },
+      { id: "c5", title: { th: "บท 5: เควส Land of the Morning Light", en: "Ch. 5: Land of the Morning Light quests" }, reward: { th: "Ancient Hammer PEN x5", en: "Ancient Hammer PEN x5" }, how: [{ th: "จบ [LoML] Dokkebi's Gift และ [LoML] Ruler of Taebaek", en: "Complete [LoML] Dokkebi's Gift and [LoML] Ruler of Taebaek." }] },
+      { id: "c6", title: { th: "บท 6: Kzarka Barrier V", en: "Ch. 6: Kzarka Barrier V" }, reward: { th: "Ancient Black Stone PEN x1", en: "Ancient Black Stone PEN x1" }, how: [{ th: "จบ [Elvia] Kzarka: Barrier of Infestation V (เล่นคนเดียว)", en: "Complete [Elvia] Kzarka: Barrier of Infestation V (solo)." }] },
+      { id: "c7", title: { th: "บท 7: Sangoon (Calamity 1)", en: "Ch. 7: Sangoon (Calamity 1)" }, reward: { th: "Advice of Valks (+210) x2", en: "Advice of Valks (+210) x2" }, how: [{ th: "ล่า Sangoon ใน Black Shrine Donghae (Solo) ระดับ Calamity 1 ขึ้นไป (ต้องการ AP ราว 300-310)", en: "Defeat Sangoon in Black Shrine Donghae (Solo) at Calamity 1 or higher (about 300-310 AP)." }] },
+      { id: "c8", title: { th: "บท 8: Gumiho (Calamity 1)", en: "Ch. 8: Gumiho (Calamity 1)" }, reward: { th: "Ancient Hammer HEX x5", en: "Ancient Hammer HEX x5" }, how: [{ th: "ล่า Gumiho ใน Black Shrine Donghae (Solo) ระดับ Calamity 1 ขึ้นไป", en: "Defeat Gumiho in Black Shrine Donghae (Solo) at Calamity 1 or higher." }] },
+      { id: "c9", title: { th: "บท 9: Jigwi", en: "Ch. 9: Jigwi" }, reward: { th: "Ancient Black Stone HEX x1", en: "Ancient Black Stone HEX x1" }, how: [{ th: "ประกาศทางการ: ล่า Jigwi (Hard) ใน Black Shrine Hwanghae (Party) ไกด์ผู้เล่นบอก Dark Rift Dastard Bheg ให้เช็กในเกม", en: "Official note: Jigwi (Hard) in Black Shrine Hwanghae (Party). Player guides say Dark Rift Dastard Bheg; check in game." }] },
+      { id: "c10", title: { th: "บท 10: Bulgasal", en: "Ch. 10: Bulgasal" }, reward: { th: "Essence of Dawn x50", en: "Essence of Dawn x50" }, how: [{ th: "ประกาศทางการ: Bulgasal (Hard) ใน Hwanghae (Party) ไกด์ผู้เล่นบอก Dark Rift Dim Tree Spirit", en: "Official note: Bulgasal (Hard) in Hwanghae (Party). Player guides say Dark Rift Dim Tree Spirit." }] },
+      { id: "c11", title: { th: "บท 11: Uturi", en: "Ch. 11: Uturi" }, reward: { th: "Ancient Hammer HEX x5", en: "Ancient Hammer HEX x5" }, how: [{ th: "ประกาศทางการ: Uturi (Hard) ใน Hwanghae (Party) ไกด์ผู้เล่นบอก Dark Rift Ferrid", en: "Official note: Uturi (Hard) in Hwanghae (Party). Player guides say Dark Rift Ferrid." }] },
+      { id: "c12", title: { th: "บท 12: Bihyung", en: "Ch. 12: Bihyung" }, reward: { th: "Ancient Black Stone HEX x1", en: "Ancient Black Stone HEX x1" }, how: [{ th: "ประกาศทางการ: Bihyung (Hard) ใน Hwanghae (Party) ไกด์ผู้เล่นบอก Dark Rift Ahib Griffon", en: "Official note: Bihyung (Hard) in Hwanghae (Party). Player guides say Dark Rift Ahib Griffon." }] },
+      { id: "c13", title: { th: "บท 13: ปิดเล่ม", en: "Ch. 13: Close the journal" }, reward: { th: "Ancient Black Stone SEP x2", en: "Ancient Black Stone SEP x2" }, how: [{ th: "รับรางวัลบท 1-12 ครบแล้วคุยกับ Black Spirit", en: "Claim Ch. 1-12, then talk to the Black Spirit." }] },
+    ],
+    sources: [
+      { label: "HYPERBOOST patch notes", url: "https://www.naeu.playblackdesert.com/News/Notice/Detail?groupContentNo=10401", date: "2026-07-30" },
+      { label: "Asia patch notes (Calamity 1 change)", url: "https://blackdesert.pearlabyss.com/Asia/en-us/News/Notice/Detail?_boardNo=19953", date: "2026-10-22" },
+      BDF("emma-bartalis-journal-guide/", "2026-08-07", "BDF: Emma Bartali's Journal"),
+    ],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "eyes",
+    group: "story",
+    order: 3,
+    effort: 2,
+    name: { th: "The Eyes of Adventure", en: "The Eyes of Adventure" },
+    why: { th: "เปิดได้ตั้งแต่ Lv 11 ได้สัตว์เลี้ยง Prankkebi, คนงาน Dokkebi และ Embers", en: "Opens at Lv 11. Gives the Prankkebi pet, Dokkebi workers and Embers." },
+    unlock: { th: "Lv 11 และไปถึง Land of the Morning Light ได้", en: "Lv 11 and access to Land of the Morning Light" },
+    start: { th: "Adventure Log Bookshelf > The Eyes of Adventure เตรียมเบ็ดตกปลา จอบ ขวานตัดไม้ และเนื้อวัว 100", en: "Adventure Log Bookshelf > The Eyes of Adventure. Bring a fishing rod, hoe, lumbering axe and 100 Beef." },
+    total: { th: "เฟอร์นิเจอร์, Embers of the Primordial x15, Sangpyeong Coin, คริสตัล, สัตว์เลี้ยง Prankkebi, คนงาน Dokkebi 3 คน, ฉายา (Max Energy +2 ตามไกด์ผู้เล่น ยังไม่ยืนยัน)", en: "Furniture, Embers of the Primordial x15, Sangpyeong Coins, crystals, the Prankkebi pet, 3 Dokkebi workers, a title (Max Energy +2 per player guides, unconfirmed)" },
+    note: { th: "เล่ม 1-4 ได้แค่เฟอร์นิเจอร์ เล่ม 5-9 คือของดี ถ้ารีบให้ข้ามไปเล่ม 5 ก่อน", en: "Volumes 1-4 give only furniture; 5-9 are the valuable ones. If short on time, start at Volume 5." },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1", en: "Volume 1" }, reward: { th: "เฟอร์นิเจอร์", en: "Furniture" }, how: [
+        { th: "ถาม Slowkkebi เรื่อง Mirrorkkebi, ตก Pollack 5 ตัว, คุยกับ Shin Taesun", en: "Ask Slowkkebi about Mirrorkkebi, catch 5 Pollack, chat with Shin Taesun." },
+        { th: "ดูโชว์ Kkebibat (Tale of Duoksini) และจุดซักผ้าทางตะวันตกเฉียงใต้ของ Nopsae Byeot", en: "Watch the Kkebibat show (Tale of Duoksini) and visit the laundry southwest of Nopsae Byeot." },
+      ] },
+      { id: "v2", title: { th: "เล่ม 2", en: "Volume 2" }, reward: { th: "เฟอร์นิเจอร์", en: "Furniture" }, how: [
+        { th: "ขึ้นยอดเขาตะวันออกของศาล Sangoon ตอน 7 โมงเช้าในเกม", en: "Climb the peak east of the Sangoon shrine at 7 AM in-game." },
+        { th: "เก็บหน่อไม้ 5, หม้อ 5 ใบที่ร้าน Miss Myo, ข้าว 100, วัตถุใต้น้ำตกเหนือ Hanji", en: "Gather 5 Bamboo Sprouts, find 5 pots at Miss Myo's, hand in 100 Rice, find the object under the waterfall north of Hanji." },
+      ] },
+      { id: "v3", title: { th: "เล่ม 3", en: "Volume 3" }, reward: { th: "เฟอร์นิเจอร์", en: "Furniture" }, how: [
+        { th: "Prepared Snack ตอนบ่าย 3, Reed 300 (Gowun Plateau), ดอก Maehwa แดง, หมา Badugi, ปลา Neon Damselfish 1", en: "Prepared Snack at 3 PM, 300 Reed (Gowun Plateau), a red Maehwa, the Badugi dog, 1 Neon Damselfish." },
+      ] },
+      { id: "v4", title: { th: "เล่ม 4", en: "Volume 4" }, reward: { th: "เฟอร์นิเจอร์", en: "Furniture" }, how: [
+        { th: "แอบฟังที่ Donghae Office, คุยกับ Yoosung, ทำ Moodle Gukbap (สูตรจาก Wolim)", en: "Eavesdrop at the Donghae Office, talk to Yoosung, cook Moodle Gukbap (recipe from Wolim)." },
+        { th: "ถวายเนื้อวัว 100 ที่รูปปั้น Fox Goddess และแอบฟังข้างผู้จัดการการค้า", en: "Offer 100 Beef at the Fox Goddess Statue and eavesdrop by the Trade Manager." },
+      ] },
+      { id: "v5", title: { th: "เล่ม 5: หีบ Dokkebi 100 ใบ", en: "Volume 5: 100 Dokkebi Chests" }, reward: { th: "Embers of the Primordial x15", en: "Embers of the Primordial x15" }, how: [
+        { th: "หาหีบ Dokkebi ให้ครบ 20 ใบในแต่ละหมวดความรู้ Morning Light Tales I-V (ดูแผนที่ใน Knowledge)", en: "Find all 20 Dokkebi Chests in each Morning Light Tales I-V knowledge category (check Knowledge for hints)." },
+      ] },
+      { id: "v6", title: { th: "เล่ม 6: หีบลับ 5 ใบ", en: "Volume 6: 5 hidden chests" }, reward: { th: "Sangpyeong Coin", en: "Sangpyeong Coins" }, how: [
+        { th: "หีบที่น้ำตก, หลังคา Byukgye, หน้าผา Haemo, หาด Bari, Beombawi", en: "Chests at the waterfall, the Byukgye roof, the Haemo cliffs, Bari beach and Beombawi." },
+      ] },
+      { id: "v7", title: { th: "เล่ม 7: หีบลับ 5 ใบ", en: "Volume 7: 5 hidden chests" }, reward: { th: "ยาสมุนไพร, เหล้า Maehwa, ซุปบำรุง, คริสตัล", en: "Herbal Medicine, Maehwa Liquor, Nourishing Soup, a crystal" }, how: [
+        { th: "หาหีบลับอีก 5 ใบตามคำใบ้ในสมุด", en: "Find 5 more hidden chests from the hints in the log." },
+      ] },
+      { id: "v8", title: { th: "เล่ม 8: ตกหีบจากน้ำ", en: "Volume 8: Fish up chests" }, reward: { th: "คริสตัล และ Mysterious Powder", en: "Crystals and Mysterious Powder" }, how: [
+        { th: "ไปจุดที่กำหนดแล้วตกปลาจนได้หีบ 5 ใบ", en: "Fish at the marked spots until you hook 5 chests." },
+      ] },
+      { id: "v9", title: { th: "เล่ม 9: ตามหา Dokkebi", en: "Volume 9: Find the Dokkebi" }, reward: { th: "สัตว์เลี้ยง Prankkebi, Kkebicharm, คนงาน Dokkebi, ฉายา", en: "Prankkebi pet, Kkebicharm, Dokkebi workers, a title" }, how: [
+        { th: "หา Dokkebi Goblin 5 ตัว ออกเฉพาะ 4 ทุ่มถึง 9 โมงเช้าในเกม", en: "Find 5 Dokkebi Goblins; they only appear 10 PM to 9 AM in-game." },
+      ] },
+    ],
+    sources: [WIKI, BDF("adventurers-unfamiliar-landscape-journal/", "2025-07-25", "BDF: The Eyes of Adventure")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "rulupee",
+    group: "black-spirit",
+    order: 4,
+    effort: 1,
+    name: { th: "Rulupee's Travels (Crow Merchants)", en: "Rulupee's Travels (Crow Merchants)" },
+    why: { th: "นับเควสที่ทำอยู่แล้ว ขึ้นเองระหว่างเล่น ได้ Advice of Valks และโอกาสตีบวกสูงสุด", en: "Counts quests you already do. Fills in passively; gives Advice of Valks and max Valks chance." },
+    unlock: { th: "Lv 55 แล้วรับ [Adventure Log] Crow Merchants' Records จาก Black Spirit", en: "Lv 55, then accept [Adventure Log] Crow Merchants' Records from the Black Spirit" },
+    start: { th: "Bookshelf > Crow Merchants' Records > Rulupee's Travels", en: "Bookshelf > Crow Merchants' Records > Rulupee's Travels" },
+    total: { th: "Advice of Valks +60/+80/+100/+300, น้ำหนัก +6 LT, กระเป๋า +1, Max Valks Enhancement Chance +5, ฉายา 30K", en: "Advice of Valks +60/+80/+100/+300, Weight +6 LT, Inventory +1, Max Valks Enhancement Chance +5, the 30K title" },
+    volumes: [
+      { id: "c1", title: { th: "บท 1-5: เควส 101 ถึง 601", en: "Ch. 1-5: 101 to 601 quests" }, reward: { th: "Advice of Valks +60/+80/+100, น้ำหนัก +6 LT", en: "Advice of Valks +60/+80/+100, Weight +6 LT" }, stat: true, how: [{ th: "ทำเควสสะสมครบ 101 / 150 / 255 / 400 / 601 (เควสรายวันและรายสัปดาห์ไม่นับ)", en: "Reach 101 / 150 / 255 / 400 / 601 completed quests (dailies and weeklies don't count)." }] },
+      { id: "c6", title: { th: "บท 6: เควส 850", en: "Ch. 6: 850 quests" }, reward: { th: "กระเป๋า +1", en: "Inventory +1" }, stat: true, how: [{ th: "ครบ 850 เควส แล้วรับเควสต่อจาก Black Spirit", en: "Reach 850 quests, then take the follow-up Black Spirit quest." }] },
+      { id: "c7", title: { th: "บท 7-11: เควส 1,004 ถึง 29,999", en: "Ch. 7-11: 1,004 to 29,999 quests" }, reward: { th: "Max Valks +1 ต่อบท (รวม +5), Advice of Valks (+300), ฉายา", en: "Max Valks +1 each (+5 total), Advice of Valks (+300), a title" }, how: [{ th: "ครบ 1,004 / 4,921 / 9,999 / 19,235 / 29,999 เควส เป็นเป้าระยะยาว", en: "Reach 1,004 / 4,921 / 9,999 / 19,235 / 29,999 quests. A long-term goal." }] },
+    ],
+    sources: [WIKI, BDF("rulupees-travel-log-guide/", "2025-07-25", "BDF: Rulupee's Travels")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "margahan",
+    group: "black-spirit",
+    order: 5,
+    effort: 2,
+    name: { th: "Book of Margahan (Old Moon)", en: "Book of Margahan (Old Moon)" },
+    why: { th: "เพิ่ม Agris สูงสุดและดรอป Agris ช่วยฟาร์มเงินได้มากขึ้น", en: "Raises max Agris and Agris drop rate, so grinding pays more." },
+    unlock: { th: "Lv 58 แล้วรับ [Adventure Log] Old Moon Logs จาก Black Spirit", en: "Lv 58, then accept [Adventure Log] Old Moon Logs from the Black Spirit" },
+    start: { th: "Bookshelf > Old Moon Logs > Book of Margahan", en: "Bookshelf > Old Moon Logs > Book of Margahan" },
+    total: { th: "Agris สูงสุด +50,000, ดรอป Agris +50%, ฟื้น Agris รายวัน +5,000", en: "Max Agris +50,000, Agris drop amount +50%, daily Agris recovery +5,000" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1: ตามหา Agris", en: "Book 1: Agris trail" }, reward: { th: "Agris สูงสุดเพิ่ม", en: "More max Agris" }, how: [
+        { th: "คุยที่ Altar of Agris, ส่ง Fruit of Nature 10, เนื้อหมี 30, ข้าวสาลี 100", en: "Chat at the Altar of Agris; hand in 10 Fruit of Nature, 30 Bear Meat, 100 Wheat." },
+        { th: "หาถ้ำลับชายฝั่ง, ขึ้นยอดหอ Cron Castle, ส่งแผ่นจารึก Agris (Alustin ไป Edan)", en: "Find the hidden coastal cave, climb the Cron Castle tower, deliver the Agris Stone Tablet (Alustin to Edan)." },
+      ] },
+      { id: "v2", title: { th: "เล่ม 2: ล่ามอนสเตอร์", en: "Book 2: Kill counts" }, reward: { th: "ดรอป Agris +50%, ฟื้นรายวัน +5,000", en: "Agris drop +50%, daily recovery +5,000" }, how: [
+        { th: "ล่า Sausan 1,000 / Crescent Shrine 1,500 / Sherekhan 2,000 / Manshaum 2,000 / Blood Wolf 1,500 ตัว (นับระหว่างฟาร์มปกติ)", en: "Kill 1,000 at Sausan, 1,500 at Crescent Shrine, 2,000 at Sherekhan, 2,000 at Manshaum, 1,500 at Blood Wolf (counts during normal grinding)." },
+      ] },
+    ],
+    sources: [{ label: "Asia Adventurer's Guide: Adventure Log Bookshelf", url: "https://blackdesert.pearlabyss.com/Asia/en-US/Game/Wiki?_masterWikiNo=185", date: "2023-09-06" }, BDF("book-of-margahan-agris-fever-guide/", "2024-11-12", "BDF: Book of Margahan")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "fughar",
+    group: "black-spirit",
+    order: 6,
+    effort: 2,
+    name: { th: "Fughar's Road to Success (Crow Merchants)", en: "Fughar's Road to Success (Crow Merchants)" },
+    why: { th: "น้ำหนัก +2 LT และกระเป๋า +1 พร้อมกล่องของขวัญ", en: "Weight +2 LT and Inventory +1, plus a gift box." },
+    unlock: { th: "Lv 55 (เปิดพร้อม Crow Merchants' Records)", en: "Lv 55 (opens with Crow Merchants' Records)" },
+    start: { th: "Bookshelf > Crow Merchants' Records > Fughar's Road to Success", en: "Bookshelf > Crow Merchants' Records > Fughar's Road to Success" },
+    total: { th: "น้ำหนัก +2 LT, กระเป๋า +1, Fughar's Secret Book x12, กล่องของขวัญ Fughar", en: "Weight +2 LT, Inventory +1, Fughar's Secret Book x12, Fughar's Special Gift Box" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1", en: "Volume 1" }, reward: { th: "น้ำหนัก / Secret Book", en: "Weight / Secret Books" }, stat: true, how: [{ th: "คุย Patrigio, เควส Bright Red Apple, ความรู้คน Calpheon 55, Nutritious Haystack, ล่า 777 ตัวที่ Traitor's Graveyard", en: "Talk to Patrigio, the Bright Red Apple quest, 55 Calpheon people knowledge, a Nutritious Haystack, 777 kills at Traitor's Graveyard." }] },
+      { id: "v2", title: { th: "เล่ม 2", en: "Volume 2" }, reward: { th: "กระเป๋า +1 / Secret Book", en: "Inventory +1 / Secret Books" }, stat: true, how: [{ th: "เควส Sweet Sunlight, ความรู้ช่างตีเหล็ก 3, Amity กับ Neruda Shen, ล่า Kratuga 777, ต่อ Node Calpheon ถึง Altinova", en: "Sweet Sunlight quest, 3 Legendary Blacksmiths knowledge, Neruda Shen amity, 777 Kratuga kills, connect Calpheon to Altinova." }] },
+      { id: "v3", title: { th: "เล่ม 3", en: "Volume 3" }, reward: { th: "กล่องของขวัญ Fughar", en: "Fughar's Special Gift Box" }, how: [{ th: "Crow's Nest ภาค 1-2, ใส่ Undying Crow's Insignia, โชว์ Gold Bar 10 แท่ง (1 พันล้าน) ให้ Black Spirit แล้วกลับไปหา Fughar", en: "Crow's Nest parts 1-2, equip the Undying Crow's Insignia, show 10 Gold Bars (1B silver) to the Black Spirit, return to Fughar." }] },
+    ],
+    sources: [WIKI, BDF("fughars-adventure-journal/", "2025-07-25", "BDF: Fughar's Road to Success")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "herald",
+    group: "black-spirit",
+    order: 7,
+    effort: 2,
+    name: { th: "Herald's Journal (Old Moon)", en: "Herald's Journal (Old Moon)" },
+    why: { th: "Valks' Cry และ Max Valks ราคาถูก ทำไปพร้อมเที่ยวเมือง", en: "Cheap Valks' Cry and max Valks chance while you travel." },
+    unlock: { th: "Lv 58 (เปิดพร้อม Old Moon Logs)", en: "Lv 58 (opens with Old Moon Logs)" },
+    start: { th: "Bookshelf > Old Moon Logs > Herald's Journal (ทำกับ Rubin บางงานจำกัดเวลา)", en: "Bookshelf > Old Moon Logs > Herald's Journal (with Rubin; some tasks are timed)" },
+    total: { th: "Valks' Cry x10 ต่อบท, ฉายา 6 อัน, Max Valks +3, น้ำหนัก +2 LT (ตามไกด์ผู้เล่น)", en: "Valks' Cry x10 per chapter, 6 titles, Max Valks +3, Weight +2 LT (per player guides)" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1: Calpheon", en: "Book 1: Calpheon" }, reward: { th: "Valks' Cry, ฉายา", en: "Valks' Cry, title" }, how: [{ th: "คุยและปีนจุดต่าง ๆ ใน Calpheon ตามที่ Rubin สั่ง", en: "Chats and climbs around Calpheon as Rubin asks." }] },
+      { id: "v2", title: { th: "เล่ม 2", en: "Book 2" }, reward: { th: "Valks' Cry, ฉายา", en: "Valks' Cry, title" }, how: [{ th: "ตกปลาน้ำเงิน, ต่อรองราคา, ไปเกาะ Iliya, ถ้ำลับ", en: "A blue fish, a bargain, Iliya Island, a hidden cave." }] },
+      { id: "v3", title: { th: "เล่ม 3", en: "Book 3" }, reward: { th: "Valks' Cry, Max Valks", en: "Valks' Cry, max Valks" }, how: [{ th: "ล่า Gahaz 250, ไป Hystria, Pilgrim's Sanctum, คุยกับหัวหน้าเมือง (จำเป็นสำหรับ Pavino เล่ม 3)", en: "250 Gahaz, Hystria, Pilgrim's Sanctum, city chiefs (needed for Pavino Book 3)." }] },
+      { id: "v4", title: { th: "เล่ม 4", en: "Book 4" }, reward: { th: "Valks' Cry, ฉายา", en: "Valks' Cry, title" }, how: [{ th: "งานจิปาถะ, หุ่นไล่กา, จับม้า, ตอบคำถาม, ฝึกปู", en: "Errands, scarecrows, horse taming, a quiz, crab training." }] },
+    ],
+    sources: [WIKI, BDF("heralds-journal/", "2026-01-24", "BDF: Herald's Journal")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "justin",
+    group: "black-spirit",
+    order: 8,
+    effort: 1,
+    name: { th: "Justin Bartali's Adventures", en: "Justin Bartali's Adventures" },
+    why: { th: "สมุดเที่ยวปีนตึกทั่วแผนที่ ได้ Item Collection Scroll, Secret Book of Florin, Cron Stone", en: "A travel and climbing log across the map: Item Collection Scrolls, Secret Books of Florin, Cron Stones." },
+    unlock: { th: "Lv 60 + สายเควส [Justin's Adventures] The Prodigal แล้วรับ [Adventure Log] Justin Bartali's Adventures", en: "Lv 60 + the [Justin's Adventures] The Prodigal questline, then [Adventure Log] Justin Bartali's Adventures" },
+    start: { th: "Black Spirit > Emma Bartali > Eileen > Port Epheria (Fabri, Pavino Greko)", en: "Black Spirit > Emma Bartali > Eileen > Port Epheria (Fabri, Pavino Greko)" },
+    total: { th: "Item Collection Increase Scroll x12, Secret Book of Florin x9, Book of Combat และ Life 7 วัน, Cron Stone x300, ฉายา 7 อัน", en: "Item Collection Increase Scroll x12, Secret Book of Florin x9, 7-day Books of Combat and Life, Cron Stone x300, 7 titles" },
+    note: { th: "ต้องปลดล็อกแผนที่ทุกภูมิภาคก่อน จบแล้วรับ [Adventure Log] Where's Justin? และ 11 Years of Adventures ที่ Altar of Training", en: "You need every region unlocked. Afterwards take [Adventure Log] Where's Justin? and 11 Years of Adventures at the Altar of Training." },
+    volumes: [
+      { id: "p1", title: { th: "หน้า 1-4", en: "Pages 1-4" }, reward: { th: "Item Collection Scroll x3, Secret Book of Florin x3, ฉายา", en: "Item Collection Scroll x3, Secret Book of Florin x3, titles" }, how: [
+        { th: "ยอดหอ Port Epheria, ยอดหอเมือง Calpheon, โรงแรม Glish (ข้าง Deborah), กำแพงปราสาท Heidel", en: "Top of the Port Epheria tower, top of the Calpheon City tower, the Glish inn (by Deborah), the Heidel castle wall." },
+      ] },
+      { id: "p5", title: { th: "หน้า 5-8", en: "Pages 5-8" }, reward: { th: "Item Collection Scroll x3, Secret Book of Florin x3, ฉายา", en: "Item Collection Scroll x3, Secret Book of Florin x3, titles" }, how: [
+        { th: "เต็นท์ Abandoned Iron Mine, บันได Altinova ทางไป Neruda Shen, สนามกีฬาเมือง Valencia ฝั่งตะวันตก, ประภาคาร Arehaza", en: "The Abandoned Iron Mine tent, the Altinova stairs toward Neruda Shen, the west side of the Valencia City stadium, the Arehaza lighthouse." },
+      ] },
+      { id: "p9", title: { th: "หน้า 9-12", en: "Pages 9-12" }, reward: { th: "Item Collection Scroll x3, Secret Book of Florin x3, ฉายา", en: "Item Collection Scroll x3, Secret Book of Florin x3, titles" }, how: [
+        { th: "เหนือ Salih ที่ Asparkan Castle, ทางเข้าถ้ำ Muzgar, ใกล้ Ulan ที่ Eilton, ทางเข้า Camp Balacs", en: "Above Salih at Asparkan Castle, the Muzgar cave entrance, near Ulan in Eilton, the Camp Balacs entrance." },
+      ] },
+      { id: "p13", title: { th: "หน้า 13-17", en: "Pages 13-17" }, reward: { th: "Item Collection Scroll x3, Book of Combat และ Life 7 วัน, Cron Stone x300", en: "Item Collection Scroll x3, 7-day Books of Combat and Life, Cron Stone x300" }, how: [
+        { th: "หลังคาหลัง Akasak ที่ Duvencrune, ข้ามสะพานจาก Night Crow Post, บันได O'draxxia, กำแพงพัง Starry Midnight Port, ยอดหอกลาง Grana", en: "The rooftop behind Akasak in Duvencrune, across the bridge from Night Crow Post, the O'draxxia stairs, the broken wall at Starry Midnight Port, the top of Grana's central tower." },
+      ] },
+    ],
+    sources: [WIKI, BDF("justin-bartalis-adventure-log-guide/", "2026-01-18", "BDF: Justin Bartali's Adventures")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "storybook",
+    group: "story",
+    order: 9,
+    effort: 2,
+    name: { th: "Storybook: Morning Bosses", en: "Storybook: Morning Bosses" },
+    why: { th: "Embers of Hongik จากการตีบอส Black Shrine ที่ทำทุกสัปดาห์อยู่แล้ว", en: "Embers of Hongik from the Black Shrine bosses you already run weekly." },
+    unlock: { th: "ไม่มีเงื่อนไข แต่ต้องปลดล็อกบอสแต่ละตัวจากเนื้อเรื่อง LoML ก่อน", en: "No requirement, but each boss must first be unlocked through the LoML story." },
+    start: { th: "Bookshelf > Storybook > Morning Bosses", en: "Bookshelf > Storybook > Morning Bosses" },
+    total: { th: "Embers of Hongik x40 / x50 / x60 / x70 (เล่ม II-V)", en: "Embers of Hongik x40 / x50 / x60 / x70 (Volumes II-V)" },
+    note: { th: "ตั้งแต่ 22 ต.ค. 2026 ตัด Calamity 10 ออก และตีระดับสูงกว่าจะนับระดับต่ำกว่าให้ด้วย Black Shrine ตีได้ 5 บอสต่อสัปดาห์", en: "Since 22 Oct 2026 Calamity 10 is gone and a higher-Calamity clear also counts for lower ones. Black Shrine allows 5 bosses per week." },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม I", en: "Volume I" }, reward: { th: "น้ำหนัก +10 LT (ไกด์ผู้เล่น ยังไม่ยืนยัน)", en: "Weight +10 LT (player guides, unconfirmed)" }, how: [{ th: "ล่าบอส Black Shrine Donghae (Solo) ครบทุกตัวในระดับแรก", en: "Defeat every Black Shrine Donghae (Solo) boss on the first difficulty." }] },
+      { id: "v2", title: { th: "เล่ม II", en: "Volume II" }, reward: { th: "Embers of Hongik x40", en: "Embers of Hongik x40" }, how: [{ th: "ล่าบอสครบ 10 ตัวในระดับถัดไป", en: "Defeat all 10 bosses on the next difficulty." }] },
+      { id: "v3", title: { th: "เล่ม III", en: "Volume III" }, reward: { th: "Embers of Hongik x50", en: "Embers of Hongik x50" }, how: [{ th: "ล่าบอสครบ 10 ตัวในระดับ Calamity กลุ่ม 1-3", en: "Defeat all 10 bosses on Calamity 1-3." }] },
+      { id: "v4", title: { th: "เล่ม IV", en: "Volume IV" }, reward: { th: "Embers of Hongik x60", en: "Embers of Hongik x60" }, how: [{ th: "ล่าบอสครบ 10 ตัวในระดับ Calamity กลุ่ม 4-6", en: "Defeat all 10 bosses on Calamity 4-6." }] },
+      { id: "v5", title: { th: "เล่ม V", en: "Volume V" }, reward: { th: "Embers of Hongik x70", en: "Embers of Hongik x70" }, how: [{ th: "ล่าบอสครบ 10 ตัวในระดับ Calamity กลุ่ม 7-9", en: "Defeat all 10 bosses on Calamity 7-9." }] },
+    ],
+    sources: [WIKI, { label: "Asia patch notes (Calamity revamp)", url: "https://blackdesert.pearlabyss.com/Asia/en-us/News/Notice/Detail?_boardNo=19953", date: "2026-10-22" }, BDF("boss-encyclopedia-guide/", "2026-06-27", "BDF: Boss Storybook")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "deve",
+    group: "black-spirit",
+    order: 10,
+    effort: 2,
+    name: { th: "Deve's Encyclopedia (Shakatu)", en: "Deve's Encyclopedia (Shakatu)" },
+    why: { th: "เล่ม 1-2 ให้น้ำหนักฟรี ที่เหลือเป็นของแต่งบ้านและสัตว์เลี้ยงจิ้งจอก", en: "Volumes 1-2 give free weight; the rest are furniture and a Desert Fox pet." },
+    unlock: { th: "Lv 57 แล้วรับ [Adventure Log] Shakatu Merchants' Archive จาก Black Spirit", en: "Lv 57, then accept [Adventure Log] Shakatu Merchants' Archive from the Black Spirit" },
+    start: { th: "Bookshelf > Shakatu Merchants' Archive > Deve's Encyclopedia", en: "Bookshelf > Shakatu Merchants' Archive > Deve's Encyclopedia" },
+    total: { th: "น้ำหนัก +2 LT, เฟอร์นิเจอร์, สัตว์เลี้ยง Desert Fox", en: "Weight +2 LT, furniture, a Desert Fox pet" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1", en: "Volume 1" }, reward: { th: "น้ำหนัก +1 LT", en: "Weight +1 LT" }, stat: true, how: [{ th: "ส่งชุดไอเทม: แร่ ผง และ Gold Bar ตามรายการในสมุด", en: "Hand in item sets: ores, powders and gold bars as listed." }] },
+      { id: "v2", title: { th: "เล่ม 2", en: "Volume 2" }, reward: { th: "น้ำหนัก +1 LT", en: "Weight +1 LT" }, stat: true, how: [{ th: "ส่งดอกไม้ เก้าอี้ โคมระย้า ตามรายการ", en: "Hand in flowers, chairs and chandeliers as listed." }] },
+      { id: "v3", title: { th: "เล่ม 3-6", en: "Volumes 3-6" }, reward: { th: "เฟอร์นิเจอร์, สัตว์เลี้ยง Desert Fox", en: "Furniture, Desert Fox pet" }, how: [{ th: "ส่งเตียง หัวสัตว์สตัฟฟ์ ปะการัง เบ็ด กุญแจ กับดัก เหล้า และไอเทม Energy (แพง ทำทีหลังได้)", en: "Hand in beds, stuffed heads, corals, rods, keys, traps, alcohol and energy items (expensive; fine to leave for later)." }] },
+    ],
+    sources: [WIKI, BDF("deves-encyclopedia/", "2025-09-03", "BDF: Deve's Encyclopedia")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "caphras",
+    group: "black-spirit",
+    order: 11,
+    effort: 3,
+    name: { th: "Caphras's Record (Crow Merchants)", en: "Caphras's Record (Crow Merchants)" },
+    why: { th: "Caphras Stone ฟรี 300 ก้อน แต่ยาว ทำตอนสะดวก", en: "300 free Caphras Stones, but long. Do it when convenient." },
+    unlock: { th: "Lv 55 (เปิดพร้อม Crow Merchants' Records)", en: "Lv 55 (opens with Crow Merchants' Records)" },
+    start: { th: "ลำดับคือเล่ม 2 > 3 > 1 > 4", en: "Order: Volume 2 > 3 > 1 > 4" },
+    total: { th: "Caphras Stone x300 (ไม่มีค่าสถานะครอบครัว)", en: "Caphras Stone x300 (no family stats)" },
+    volumes: [
+      { id: "v2", title: { th: "เล่ม 2 (ทำก่อน)", en: "Volume 2 (first)" }, reward: { th: "Caphras Stone x50", en: "Caphras Stone x50" }, how: [{ th: "ต้น Grana, ล่า Feather Wolf 150, ค้าขาย Eastern Culture, ความรู้ Valencia 2 หมวด, ล่า Pila Ku 1,000", en: "The Grana tree, 150 Feather Wolves, an Eastern Culture trade, 2 Valencia knowledge categories, 1,000 Pila Ku kills." }] },
+      { id: "v3", title: { th: "เล่ม 3", en: "Volume 3" }, reward: { th: "Caphras Stone x50", en: "Caphras Stone x50" }, how: [{ th: "ส่ง Cadry Ring ให้ Anne Laker, เควส Velia 3, ความรู้ Cron Castle 3, ดำน้ำตะวันตกของ Cron Castle, ฉายา Caphras' Lady", en: "Cadry Ring to Anne Laker, 3 Velia quests, 3 Cron Castle knowledge, a dive west of Cron Castle, Caphras' Lady." }] },
+      { id: "v1", title: { th: "เล่ม 1", en: "Volume 1" }, reward: { th: "Caphras Stone x80", en: "Caphras Stone x80" }, how: [{ th: "ส่ง Tome of Light and Shadow ให้ Black Spirit แล้วทำ Lutragon, Forbidden Books, Ancient Spellbook, ความรู้ O'dyllita, Black Shard", en: "Hand the Tome of Light and Shadow to the Black Spirit, then Lutragon, Forbidden Books, Ancient Spellbook, O'dyllita knowledge, a Black Shard." }] },
+      { id: "v4", title: { th: "เล่ม 4", en: "Volume 4" }, reward: { th: "Caphras Stone x120", en: "Caphras Stone x120" }, how: [{ th: "Iliya, Rusted Headband, ถ้ำ Caphras, ล่า Cadry Ruins 1,500, สวน Valencia, O'Arma", en: "Iliya, a Rusted Headband, Caphras Cave, 1,500 Cadry Ruins kills, the Valencia garden, O'Arma." }] },
+    ],
+    sources: [WIKI, BDF("caphras-journal/", "2024-01-25", "BDF: Caphras's Record")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "pavino",
+    group: "black-spirit",
+    order: 12,
+    effort: 3,
+    name: { th: "Pavino Greko's Collection (Old Moon)", en: "Pavino Greko's Collection (Old Moon)" },
+    why: { th: "ใช้เงินเยอะ (1 พันล้าน + 500M) ทำทีหลังเมื่อมีเงินแล้ว", en: "Silver-heavy (1B + 500M). Leave it until you have the silver." },
+    unlock: { th: "รับเควสจาก Pavino Greko ที่โกดัง Port Epheria", en: "Take its quests from Pavino Greko at Port Epheria storage" },
+    start: { th: "คุย Pavino Greko ที่ Port Epheria", en: "Talk to Pavino Greko in Port Epheria" },
+    total: { th: "กล่อง Desperate / Distorted / Silent Dead, ฉายา, Gold Bar 1,000G x7 (Wiki Asia 2023 เขียน HP +600 ยังไม่ยืนยัน)", en: "Boxes of the Desperate / Distorted / Silent Dead, titles, Gold Bar 1,000G x7 (the 2023 Asia wiki says HP +600; unconfirmed)" },
+    volumes: [
+      { id: "b1", title: { th: "เล่ม 1", en: "Book 1" }, reward: { th: "กล่อง Dead x2 ต่อหน้า", en: "Dead boxes x2 per page" }, how: [{ th: "ใช้ Gold Bar 10 แท่ง (1 พันล้าน) ล่าบอส Dark Rift: Red Nose, Muskan, Dastard Bheg, Dim Tree Spirit, Ferrid, Ahib Griffon", en: "With 10 Gold Bars (1B), beat Dark Rift Red Nose, Muskan, Dastard Bheg, Dim Tree Spirit, Ferrid and Ahib Griffon." }] },
+      { id: "b2", title: { th: "เล่ม 2", en: "Book 2" }, reward: { th: "ฉายา", en: "Titles" }, how: [{ th: "ใช้ 500M ทำสูตร Trace of Pyresh 10 สูตร", en: "Spend 500M on 10 Trace of Pyresh formulas." }] },
+      { id: "b3", title: { th: "เล่ม 3", en: "Book 3" }, reward: { th: "ฉายา", en: "Titles" }, how: [{ th: "ต้องจบ Igor เล่ม 6 และ Herald เล่ม 3 ก่อน แล้วทำงานรักใน Calpheon", en: "Needs Igor Volume 6 and Herald Book 3, then the Calpheon romance tasks." }] },
+      { id: "b4", title: { th: "เล่ม 4", en: "Book 4" }, reward: { th: "Gold Bar 1,000G", en: "Gold Bar 1,000G" }, how: [{ th: "ส่งเครื่องประดับ DUO/TRI ให้ Dora Fonti", en: "Hand DUO/TRI accessories to Dora Fonti." }] },
+    ],
+    sources: [WIKI, BDF("pavino-grekos-collection/", "2025-07-25", "BDF: Pavino Greko's Collection")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "dorin",
+    group: "black-spirit",
+    order: 13,
+    effort: 3,
+    name: { th: "Dorin Morgrim's Secrets (Shakatu)", en: "Dorin Morgrim's Secrets (Shakatu)" },
+    why: { th: "Item Collection Scroll 27 ใบ แต่ใช้เกียร์และเงินเกิน 1 พันล้าน ไม่ใช่ของมือใหม่", en: "27 Item Collection Scrolls, but costs gear and over 1B silver. Not a beginner log." },
+    unlock: { th: "Lv 57 (เปิดพร้อม Shakatu Merchants' Archive)", en: "Lv 57 (opens with Shakatu Merchants' Archive)" },
+    start: { th: "Bookshelf > Shakatu Merchants' Archive > Dorin Morgrim's Secrets", en: "Bookshelf > Shakatu Merchants' Archive > Dorin Morgrim's Secrets" },
+    total: { th: "Item Collection Increase Scroll x27", en: "Item Collection Increase Scroll x27" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1", en: "Volume 1" }, reward: { th: "Item Collection Scroll x3 ต่อบท", en: "Item Collection Scroll x3 per chapter" }, how: [{ th: "ส่ง Black Stone 30, Reform Stone, อาวุธและเกราะเขียว DUO ให้ Dorin", en: "Give Dorin 30 Black Stones, a Reform Stone, and a DUO green weapon and armor." }] },
+      { id: "v2", title: { th: "เล่ม 2", en: "Volume 2" }, reward: { th: "Item Collection Scroll x3 ต่อบท", en: "Item Collection Scroll x3 per chapter" }, how: [{ th: "ส่งเกียร์บอส +15 / PRI / DUO (ของจะหายไป)", en: "Hand in +15 / PRI / DUO boss gear (it is consumed)." }] },
+    ],
+    sources: [WIKI, BDF("dorin-morgrims-secret-journal/", "2025-07-25", "BDF: Dorin Morgrim's Secrets")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "alustin",
+    group: "black-spirit",
+    order: 14,
+    effort: 3,
+    name: { th: "Alustin's Alchemy (Shakatu)", en: "Alustin's Alchemy (Shakatu)" },
+    why: { th: "Caphras Stone เพิ่ม สำหรับสายแปรธาตุที่มียาเหลือเยอะ", en: "More Caphras Stones, for alchemists with spare elixirs." },
+    unlock: { th: "Lv 57 (เปิดพร้อม Shakatu Merchants' Archive)", en: "Lv 57 (opens with Shakatu Merchants' Archive)" },
+    start: { th: "Bookshelf > Shakatu Merchants' Archive > Alustin's Alchemy", en: "Bookshelf > Shakatu Merchants' Archive > Alustin's Alchemy" },
+    total: { th: "Caphras Stone ราว 480-600 (แหล่งข้อมูลไม่ตรงกัน)", en: "About 480-600 Caphras Stones (sources disagree)" },
+    volumes: [
+      { id: "v1", title: { th: "เล่ม 1-3", en: "Books 1-3" }, reward: { th: "Caphras Stone", en: "Caphras Stones" }, how: [{ th: "หาหรือทำ Caphras Stone แล้วส่งยาและรีเอเจนต์ชนิดต่าง ๆ 250-1,500 ขวด", en: "Obtain or craft Caphras Stones, then hand in 250-1,500 of various elixirs and reagents." }] },
+    ],
+    sources: [WIKI, BDF("alustins-alchemy-journal/", "2023-03-20", "BDF: Alustin's Alchemy")],
+  },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lamute",
+    group: "other",
+    order: 15,
+    effort: 2,
+    name: { th: "Lamute Gang's Adventures (Crow Merchants)", en: "Lamute Gang's Adventures (Crow Merchants)" },
+    why: { th: "ได้เหรียญ O'dyllita อย่างเดียว ไม่มีค่าสถานะ ข้ามได้", en: "Only O'dyllita coins, no stats. Safe to skip." },
+    unlock: { th: "Lv 55 (เปิดพร้อม Crow Merchants' Records)", en: "Lv 55 (opens with Crow Merchants' Records)" },
+    start: { th: "Bookshelf > Crow Merchants' Records > Lamute Gang's Adventures", en: "Bookshelf > Crow Merchants' Records > Lamute Gang's Adventures" },
+    total: { th: "Benns Coin x8, Rainbow Petal Coin x14, Rainbow Fish Bone Coin x14", en: "Benns Coin x8, Rainbow Petal Coin x14, Rainbow Fish Bone Coin x14" },
+    volumes: [
+      { id: "b1", title: { th: "เล่ม 1-5 (19 งาน)", en: "Books 1-5 (19 tasks)" }, reward: { th: "เหรียญ O'dyllita", en: "O'dyllita coins" }, how: [{ th: "ส่งของ, พิมพ์รหัสในแชท, ฝึกปูรายวัน และสอบ รอบ Grandiha และ O'dyllita (ร่าง Papu/Otter)", en: "Deliveries, chat codes, daily crab training and exams around Grandiha and O'dyllita (Papu/Otter forms)." }] },
+    ],
+    sources: [WIKI, BDF("lamute-gangs-adventure-journal/", "2023-03-20", "BDF: Lamute Gang's Adventures")],
+  },
+];

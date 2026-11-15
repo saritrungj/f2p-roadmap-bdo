@@ -1,0 +1,1485 @@
+{
+  "generatedAt": "2026-11-13T15:41:15.045Z",
+  "source": "https://bdocodex.com",
+  "items": {
+    "4": {
+      "seaen": {
+        "name": "Gold Bar 100G",
+        "desc": "It is worth 10,000,000 Silver. Bring 10,000,000 Silver to a Storage Keeper to exchange them for a Gold Bar 100G. ※ Depositing Gold Bars in the Investment Bank might earn you more money. ※ The Investment Bank can only be used by players with a Rank 1 residence."
+      },
+      "icon": "/items/new_icon/00000004_special.webp",
+      "sell": 10000000,
+      "buy": 10010000,
+      "th": {
+        "name": "ทองแท่ง 100G",
+        "desc": "สามารถนำซิลเวอร์ 10,000,000 เหรียญ ไปแลกเป็นทองแท่ง 100G ได้ที่ ผู้จัดการคลังเก็บของ ของแต่ละหมู่บ้าน ※ สามารถนำทองแท่งไปฝากที่คลังบริหารทรัพย์สิน เพื่อเพิ่มมูลค่าทองได้ ※ มีเพียงผู้เล่นที่มีที่อยู่อาศัยลำดับที่ 1 เท่านั้นที่สามารถใช้บริการของคลังบริหารทรัพย์สินได้ รายการการแลกเป"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/4/",
+        "th": "https://bdocodex.com/th/item/4/"
+      }
+    },
+    "10": {
+      "seaen": {
+        "name": "Crow Coin",
+        "desc": "A special currency issued by the Crow Merchant Guild. Can only be used in areas under contract with the guild."
+      },
+      "icon": "/items/new_icon/00000010_special.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "เหรียญตราอีกาดำ",
+        "desc": "เงินตราพิเศษที่ถูกมอบโดยร้านค้าอีกาดำ สามารถใช้ได้ในที่ที่ทำการสัญญากับร้านค้าอีกาดำ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/10/",
+        "th": "https://bdocodex.com/th/item/10/"
+      }
+    },
+    "405": {
+      "seaen": {
+        "name": "8 Contribution EXP",
+        "desc": "Increases Contribution EXP by 8. Usage effect: 8 Contribution Point EXP (Serendia Object)"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00000402.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "ค่าประสบการณ์คะแนนสมทบ 8",
+        "desc": "ค่าประสบการณ์คะแนนสมทบ +8 ผลการใช้งาน: ค่าประสบการณ์คะแนนสมทบ 8 (เซเรนเดีย Object )"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/405/",
+        "th": "https://bdocodex.com/th/item/405/"
+      }
+    },
+    "3701": {
+      "seaen": {
+        "name": "Alchemy Tool",
+        "desc": "A tool that can reconstruct the components in a substance. - Usage : Residence or Manor decor - How to Obtain #1 : Purchase from a General Goods Shop - How to Obtain #2 : Craft at a Level 2 Tool Workshop - Materials: Rough Stone x18 Melted Iron Shard x10 Black Stone Powder x3 NPC"
+      },
+      "icon": "/items/new_icon/03_etc/06_housing/crafting_alchemy_01.webp",
+      "sell": 1500,
+      "buy": 5000,
+      "th": {
+        "name": "อุปกรณ์เล่นแร่แปรธาตุ",
+        "desc": "อุปกรณ์ที่ใช้ในการประกอบโครงสร้างของวัตถุต่างๆ ขึ้นมาใหม่ - สถานที่ใช้ : ติดตั้งที่ คฤหาสน์ หรือ ที่อยู่อาศัย - สถานที่รับ#1 : ซื้อได้ที่ ร้านขายของชำ - สถานที่รับ#2 : ผลิตที่ โรงผลิตเครื่องมือ ระดับ 2 - วัตถุดิบที่ใช้ผลิต หินหยาบ x18 ชิ้นส่วนเหล็กละลาย x10 ผงหินดำ x3 NPC: - อุปก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/3701/",
+        "th": "https://bdocodex.com/th/item/3701/"
+      }
+    },
+    "3717": {
+      "seaen": {
+        "name": "Cooking Utensil",
+        "desc": "A tool used for cooking. - Usage : Residence or Manor decor - How to Obtain #1 : Purchase from a Food Vendor - How to Obtain #2 : Craft at a Level 1 Tool Workshop - Materials: Rough Stone x15 Melted Iron Shard x10 Black Stone Powder x2 NPC: - Cooking Utensil"
+      },
+      "icon": "/items/new_icon/03_etc/06_housing/crafting_cooking_01.webp",
+      "sell": 300,
+      "buy": 1000,
+      "th": {
+        "name": "อุปกรณ์ทำอาหาร",
+        "desc": "อุปกรณ์ที่ใช้สำหรับทำอาหาร - สถานที่ใช้ : ติดตั้งที่ คฤหาสน์ หรือ ที่อยู่อาศัย - สถานที่รับ#1 : ซื้อจาก ร้านค้าวัตถุดิบทำอาหาร - สถานที่รับ#2 : ผลิตที่ โรงผลิตเครื่องมือ ระดับ 1 - วัตถุดิบที่ใช้ผลิต หินหยาบ x15 ชิ้นส่วนเหล็กละลาย x10 ผงหินดำ x2 NPC: - อุปกรณ์ทำอาหาร"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/3717/",
+        "th": "https://bdocodex.com/th/item/3717/"
+      }
+    },
+    "4918": {
+      "seaen": {
+        "name": "Magical Shard",
+        "desc": "A fragment surrounded with black magic. - Usage : Craft Manos Processing Stone, Manos Accessory, BON Magic Crystals, WON Magic Crystals, etc. - How to Obtain : Processing (L) - Heating with the following materials - Materials: Yellow-grade Black Magic Crystal x1 ※ You can Mass Pr"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00004918.webp",
+      "sell": 20000,
+      "buy": 100000,
+      "th": {
+        "name": "สะเก็ดแห่งเวทมนตร์",
+        "desc": "สะเก็ดพลังมืด - สถานที่ใช้ : ผลิต หินแปรรูปมาโนส, เครื่องประดับมาโนส, อัญมณีเวทมนตร์เบน, อัญมณีเวทมนตร์วอน เป็นต้น - สถานที่รับ : หน้าต่างแปรรูป (L) - หลอม วัตถุดิบต่อไปนี้ - วัตถุดิบที่ใช้ผลิต อัญมณีเวทมนตร์ดำ ระดับสีเหลือง x1 ※ สามารถแปรรูปอัญมณีเวทมนตร์ดำปิดผนึกจำนวนมากได้ โดย"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/4918/",
+        "th": "https://bdocodex.com/th/item/4918/"
+      }
+    },
+    "4997": {
+      "seaen": {
+        "name": "Hard Black Crystal Shard",
+        "desc": "A crystal shard that is clouded by an unknown energy. Merchants will buy it at a high price. - Usage : Exchange for Sharp Black Crystal Shard with the Black Spirit . - How to Obtain : All Gathering activities according to a set probability"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00004997.webp",
+      "sell": 30000,
+      "buy": 950000,
+      "th": {
+        "name": "ชิ้นส่วนผลึกดำแข็งแกร่ง",
+        "desc": "สะเก็ดผลึกที่เปี่ยมไปด้วยพลังปริศนา สามารถขายให้กับนักการค้าได้ในราคาแพง - สถานที่ใช้ : แลกเปลี่ยนเป็น ชิ้นส่วนผลึกดำแหลมคม ที่ ภูตดำ - สถานที่รับ : รับได้จากการเก็บรวบรวมทุกประเภท ในอัตราที่กำหนด"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/4997/",
+        "th": "https://bdocodex.com/th/item/4997/"
+      }
+    },
+    "4998": {
+      "seaen": {
+        "name": "Sharp Black Crystal Shard",
+        "desc": "A crystal shard that is clouded by an unknown energy. Merchants will buy it at a high price. - Crafting Method: Processing (L) - Heating - Usage #1 : Craft Concentrated Magical Black Stone (Enhance PRI (I) or higher weapons and defense gear ) - Crafting Materials: Sharp Black Cry"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00004998.webp",
+      "sell": 60000,
+      "buy": 2700000,
+      "th": {
+        "name": "ชิ้นส่วนผลึกดำแหลมคม",
+        "desc": "สะเก็ดผลึกที่เปี่ยมไปด้วยพลังปริศนา สามารถขายให้กับนักการค้าได้ในราคาแพง - วิธีผลิต : การแปรรูป (L) - การหลอม - สถานที่ใช้ #1 : ผลิต หินดำเวทมนตร์ควบแน่น (เสริมประสิทธิภาพ อาวุธ, เกราะป้องกันเสริมประสิทธิภาพระดับเอก (I) ขึ้นไป ) - วัตถุดิบที่ใช้ผลิต ชิ้นส่วนผลึกดำแหลมคม x1 หินดำ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/4998/",
+        "th": "https://bdocodex.com/th/item/4998/"
+      }
+    },
+    "9213": {
+      "seaen": {
+        "name": "Beer",
+        "desc": "A mild alcoholic drink brewed from cereal grains. - Effect: Recover 2 Worker Stamina (via Worker Menu on the World Map) - How to Obtain : Craft via a Cooking Utensil in your residence if at least Cooking Beginner 1 (slight chance of obtaining Cold Draft Beer when making Beer if a"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00009213.webp",
+      "sell": 86,
+      "buy": 2150,
+      "th": {
+        "name": "เบียร์",
+        "desc": "เหล้ารสอ่อนๆ ที่หมักจากธัญพืชเป็นหลัก - ผลการใช้งาน พลังกายคนงาน +2 (ใช้ในเมนูจัดการคนงานในแผนที่โลก) - สถานที่รับ : หากมีทักษะการทำอาหาร มือใหม่ Lv.1 ขึ้นไป สามารถผลิตได้โดยการติดตั้งอุปกรณ์ทำอาหารไว้ที่ที่อยู่อาศัย (หากมีทักษะการทำอาหาร คล่องแคล่ว Lv.1 ขึ้นไป สามารถรับ เบียร์สด"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/9213/",
+        "th": "https://bdocodex.com/th/item/9213/"
+      }
+    },
+    "12140": {
+      "seaen": {
+        "name": "Kharazad Ring",
+        "desc": "The royal accessory of Kharazad, son of Ahmad and founder of the Aksulp dynasty. Kharazad, in his unwavering faith, faced the trials set by Aal, the divine, to obtain the \"endlessly blazing flame\". With it, he reforged the very soul of his cherished wife, Hadiya, daughter of Rash"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00012140_1.webp",
+      "sell": null,
+      "buy": 280000000,
+      "th": {
+        "name": "แหวนคาราจาร์ด",
+        "desc": "เครื่องประดับของคาราจาร์ด 'บุตรชายแห่งอาห์มัด' ผู้เป็นบรรพบุรุษของราชวงศ์อาร์คซุลฟ์ คาราจาร์ดบรรลุการฝึกฝนของเทพอาลล์ จนได้รับ 'เปลวไฟที่ลุกโชติช่วงชั่วนิรันดร์' และใช้มันขึ้นรูปวิญญาณของฮาดิย่า 'บุตรสาวแห่งราซิดด์' ภรรยาผู้ซึ่งเป็นที่รักขึ้น เขาใช้พลังนั้นกวาดล้างเทพอสูร และกอบก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/12140/",
+        "th": "https://bdocodex.com/th/item/12140/"
+      }
+    },
+    "16000": {
+      "seaen": {
+        "name": "Crystal Extraction Tool",
+        "desc": "A tool to extract crystals used when extracting crystals from your Crystal Inventory. This can only be used through an NPC. - Usage : Extract crystals in your Crystal Inventory - How to Obtain : Processing (L) - Simple Alchemy with the following materials - Materials #1: Magical"
+      },
+      "icon": "/items/new_icon/03_etc/11_enchant_material/00016000.webp",
+      "sell": null,
+      "buy": 100000000,
+      "th": {
+        "name": "อุปกรณ์สกัดอัญมณี",
+        "desc": "อุปกรณ์สกัดอัญมณี ที่สามารถใช้สกัดอัญมณีที่อยู่ในกระเป๋าอัญมณีผ่าน NPC ที่สามารถทำการสกัดอัญมณีได้ - สถานที่ใช้ : ใช้เมื่อ สกัด อัญมณี ที่เก็บอยู่ใน กระเป๋าอัญมณี - สถานที่รับ : ใช้วัตถุดิบด้านล่างที่การแปรรูป (L) - การแปรธาตุอย่างง่าย - วัตถุดิบที่ใช้ผลิต#1 สะเก็ดแห่งเวทมนตร์ x1"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16000/",
+        "th": "https://bdocodex.com/th/item/16000/"
+      }
+    },
+    "16001": {
+      "seaen": {
+        "name": "Black Stone",
+        "desc": "This item can be used to enhance gear through the Black Spirit. - Able to Enhance: Weapon, sub-weapon, defense gear - Press RMB to start Enhancement. - Max Durability will decrease by 5 for failed enhancement. - Usage : Exchange a set amount to increase your Enhancement Chance in"
+      },
+      "icon": "/items/new_icon/03_etc/11_enchant_material/00000008.webp",
+      "sell": 13500,
+      "buy": 150000,
+      "th": {
+        "name": "หินดำ",
+        "desc": "สามารถเสริมประสิทธิภาพของอาวุธ, เกราะป้องกัน ผ่านทางภูตดำได้ - ไอเทมที่สามารถเสริมประสิทธิภาพได้ : อาวุธ, อาวุธเสริม, เกราะป้องกัน - RMBเพื่อใช้งาน จะสามารถเสริมประสิทธิภาพได้ - เมื่อเสริมประสิทธิภาพล้มเหลว ค่าความทนทานสูงสุดจะลดลง 5 - สถานที่ใช้ : แลกเปลี่ยนค่าเพิ่มอัตราเสริมประ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16001/",
+        "th": "https://bdocodex.com/th/item/16001/"
+      }
+    },
+    "16002": {
+      "seaen": {
+        "name": "Black Stone (Armor)",
+        "desc": "Once used to enhance defense gear through the Black Spirit. Cannot be used anymore. - Usage: Exchange for Black Stone via the Black Spirit ."
+      },
+      "icon": "/items/new_icon/03_etc/11_enchant_material/00000007.webp",
+      "sell": 9000,
+      "buy": 120000,
+      "th": {
+        "name": "หินดำ (เกราะป้องกัน)",
+        "desc": "เคยใช้ในการเสริมประสิทธิภาพเกราะป้องกันผ่านทางภูตดำ แต่ไม่สามารถใช้งานได้แล้วในปัจจุบัน - สถานที่ใช้ : แลกเปลี่ยนเป็น หินดำ ที่ ภูตดำ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16002/",
+        "th": "https://bdocodex.com/th/item/16002/"
+      }
+    },
+    "16004": {
+      "seaen": {
+        "name": "Concentrated Magical Black Stone",
+        "desc": "This item can be used to enhance PRI (I) to PEN (V) gear and life tools through the Black Spirit. ※ Press RMB to start Enhancement ※ Max Durability will decrease by 10 for failed enhancement. - Usage : Craft Sharp Black Crystal Shard - Crafting Method: Processing (L) - Simple Alc"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/03_etc/12_doapplydirectlyitem/00000018.webp",
+      "sell": null,
+      "buy": 1000000,
+      "th": {
+        "name": "หินดำเวทมนตร์ควบแน่น",
+        "desc": "ใช้เมื่อต้องการเสริมประสิทธิภาพอุปกรณ์ชีวิต, เกราะป้องกัน และอาวุธระดับ เอก (I) ~ เบญจ (V) ผ่านทางภูตดำ ※ RMBเพื่อใช้งาน จะสามารถเสริมประสิทธิภาพได้ ※ เมื่อเสริมประสิทธิภาพล้มเหลว ค่าความทนทานสูงสุดจะลดลง 10 - สถานที่ใช้ : ผลิต ชิ้นส่วนผลึกดำแหลมคม - วิธีผลิต : การแปรรูป (L) - แป"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16004/",
+        "th": "https://bdocodex.com/th/item/16004/"
+      }
+    },
+    "16080": {
+      "seaen": {
+        "name": "Cron Stone",
+        "desc": "Prevents enhancement level from dropping if enhancement fails. - Usage #1 : Prevents level drop or destruction upon enhancement failure - For: Weapons, defense gear, and accessories at certain enhancement levels or higher - For accessories that are destroyed on failure: 60% chanc"
+      },
+      "icon": "/items/new_icon/03_etc/00016080.webp",
+      "sell": null,
+      "buy": 3000000,
+      "th": {
+        "name": "หินครอน",
+        "desc": "ไอเทมที่ช่วยป้องกันการลดระดับเสริมประสิทธิภาพ เมื่อเสริมประสิทธิภาพล้มเหลว - สถานที่ใช้ #1 : ป้องกันการลดระดับหรือการถูกทำลาย เมื่อเสริมประสิทธิภาพอุปกรณ์ล้มเหลว - ขอบเขตการใช้งาน อาวุธ, เกราะป้องกัน และเครื่องประดับ ในระดับการเสริมประสิทธิภาพที่กำหนดขึ้นไป - เครื่องประดับที่ถูกท"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16080/",
+        "th": "https://bdocodex.com/th/item/16080/"
+      }
+    },
+    "16113": {
+      "seaen": {
+        "name": "Hoe",
+        "desc": "A gathering tool used to harvest wild herbs and crops. - Gathering time: Standard - How to use: Interact (R) with gatherable plants. - This item cannot be repaired."
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00016113.webp",
+      "sell": 16,
+      "buy": 160,
+      "th": {
+        "name": "จอบ",
+        "desc": "อุปกรณ์เก็บรวบรวมที่ช่วยให้สามารถเก็บของได้หลากหลาย อย่างการถอนหญ้าหรือลำต้นของต้นไม้ - ใช้ระยะเวลาเก็บรวบรวมปกติ - วิธีใช้ : กด (คีย์ R) ใกล้ๆ พืชที่สามารถเก็บรวบรวมได้ - ไม่สามารถซ่อมได้"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16113/",
+        "th": "https://bdocodex.com/th/item/16113/"
+      }
+    },
+    "16117": {
+      "seaen": {
+        "name": "Butcher Knife",
+        "desc": "A gathering tool used to collect meat from animal corpses. - Gathering time: Standard - How to use: Interact (R) with gatherable corpses - This item cannot be repaired."
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00016117.webp",
+      "sell": 14,
+      "buy": 140,
+      "th": {
+        "name": "มีดแล่เนื้อ",
+        "desc": "อุปกรณ์เก็บรวบรวมที่ทำขึ้นมาเพื่อใช้แล่เนื้อจากซากสัตว์ที่ตายแล้ว - ใช้ระยะเวลาเก็บรวบรวมปกติ - วิธีใช้ : กด (คีย์ R) ใกล้ๆ ซากสัตว์ - ไม่สามารถซ่อมได้"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16117/",
+        "th": "https://bdocodex.com/th/item/16117/"
+      }
+    },
+    "16125": {
+      "seaen": {
+        "name": "Pickaxe",
+        "desc": "A gathering tool made for extracting ore and minerals from rock. - Gathering time: Standard - How to use: Interact (R) with gatherable rocks. - This item cannot be repaired."
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00016125.webp",
+      "sell": 21,
+      "buy": 210,
+      "th": {
+        "name": "พลั่ว",
+        "desc": "อุปกรณ์เก็บรวมรวม ผลิตขึ้นเพื่อใช้ในการขุดแร่ต่างๆ ที่อยู่ในหินหรือแท่นหิน - ใช้ระยะเวลาเก็บรวบรวมปกติ - วิธีใช้ : กด (คีย์ R) ใกล้ๆ หินที่สามารถเก็บรวบรวมได้ - ไม่สามารถซ่อมได้"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16125/",
+        "th": "https://bdocodex.com/th/item/16125/"
+      }
+    },
+    "16141": {
+      "seaen": {
+        "name": "Fishing Rod",
+        "desc": "A Gathering Tool made for catching fish in rivers or oceans. - Durability 30 / 30 Normal Enhance: x 1 Durability Decrease at Fail: 0 Perfect Enhance (100% Chance): Not Avaiable Durability Decrease: 0 Next level: - Cron Stone x 0 Total: - Cron Stone x 0"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00016141.webp",
+      "sell": 50,
+      "buy": 500,
+      "th": {
+        "name": "คันเบ็ด",
+        "desc": "อุปกรณ์เก็บรวบรวมที่ทำขึ้นมาสำหรับใช้ตกปลาในแม่น้ำหรือทะเล - ความทนทาน 30 / 30 การเพิ่มประสิทธิภาพปกติ: x 1 ความทนทานลดลงเมื่อล้มเหลว: 0 Perfect Enhance (โอกาส 100%): ไม่สามารถใช้ได้ ความทนทานลดลง: 0 ระดับถัดไป: - หินครอน x 0 เพิ้มทั้งหมด: - หินครอน x 0"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16141/",
+        "th": "https://bdocodex.com/th/item/16141/"
+      }
+    },
+    "17501": {
+      "seaen": {
+        "name": "Energy Tonic (S)",
+        "desc": "An energy Potion that works better than a normal one. - Effect: Recover 15 Energy - Duration: Instant - Cooldown: 10 min - How to Obtain: It can be purchased from the Pearl Shop ({KeyBind:CashShop}) Once you use the item, you cannot cancel your purchase . Continue? Usage effect:"
+      },
+      "icon": "/items/new_icon/09_cash/00017501.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "น้ำยาชูกำลัง (S)",
+        "desc": "น้ำยาฟื้นฟูที่มีปริมาณการฟื้นฟู มากกว่าน้ำยาฟื้นฟูทั่วไป - ผลการใช้งาน กำลัง +15 - ระยะเวลาใช้งาน : ทันที - ระยะเวลาคูลดาวน์ : 10 นาที - วิธีรับ : ซื้อได้ที่ร้านค้าเพิร์ล ({KeyBind:CashShop}) เมื่อทำการกดใช้ จะไม่สามารถยกเลิกการซื้อได้ ต้องการใช้งานหรือไม่ ? ผลการใช้งาน: น้ำยาชูก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/17501/",
+        "th": "https://bdocodex.com/th/item/17501/"
+      }
+    },
+    "17643": {
+      "seaen": {
+        "name": "Valks' Cry",
+        "desc": "Increases your Valks Enhancement Chance by +1. - Usage : Gain the following effects when enhancing gear - Effects: Valks Enhancement Chance +1 - How to Obtain : Extract Outfit ※ Valks Enhancement Chance, which you get from Valks' Cry or Fairy's Blessing, is separate from the Enha"
+      },
+      "icon": "/items/new_icon/09_cash/00017643.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "เสียงคำรามของบาลค์",
+        "desc": "เพิ่มค่าการเพิ่มขึ้นของอัตราการเสริมประสิทธิภาพเพิ่มเติม +1 - สถานที่ใช้ : รับผลจากการใช้งาน เมื่อเสริมประสิทธิภาพอุปกรณ์ - ผลการใช้ อัตราการเสริมประสิทธิภาพ +1 - สถานที่รับ : สกัดชุด ※ หากการเสริมประสิทธิภาพล้มเหลว จำนวนการเพิ่มอัตราสะสมด้วยตนเอง จะถูกประยุกต์ใช้แยกกัน ※ เมื่อใช"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/17643/",
+        "th": "https://bdocodex.com/th/item/17643/"
+      }
+    },
+    "17807": {
+      "seaen": {
+        "name": "Advice of Valks (+8)",
+        "desc": ""
+      },
+      "icon": "/items/new_icon/03_etc/15_advice/00000008_11.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "คำแนะนำของบาลค์ (+8)",
+        "desc": ""
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/17807/",
+        "th": "https://bdocodex.com/th/item/17807/"
+      }
+    },
+    "40653": {
+      "seaen": {
+        "name": "Igor Bartali's Adventures - Chapter One",
+        "desc": "An adventure log about Velia Chief Igor Bartali's adventure which happened 50 years ago. The pages are filled with Igor Baratali's adventures in Southwestern Calpheon. Upon use, you can view the adventure log as a source of reference to go on your next adventure. ※ Click the Adve"
+      },
+      "icon": "/items/new_icon/03_etc/03_quest_item/00040653.webp",
+      "sell": 10000,
+      "buy": 10000,
+      "th": {
+        "name": "บันทึกการผจญภัยของอีกอร์ บาทัลลี่ บทที่ 1",
+        "desc": "บันทึกการผจญภัยที่ทำการบันทึกโดยอีกอร์ บาทัลลี่ ผู้ใหญ่บ้านแห่งหมู่บ้านเวเรีย ขณะที่ออกผจญภัยเมื่อ 50 กว่าปีก่อน เป็นบันทึกเกี่ยวกับการผจญภัยที่หลากหลาย ที่บริเวณตะวันตกเฉียงใต้ของคาลเพออน หากใช้งาน บันทึกจะถูกเปิดออก และสามารถผจญภัยตามเรื่องที่ปรากฏในสมุดบันทึกได้ ※ สามารถตรวจสอ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/40653/",
+        "th": "https://bdocodex.com/th/item/40653/"
+      }
+    },
+    "44195": {
+      "seaen": {
+        "name": "Memory Fragment",
+        "desc": "Also known as \"That Which Searches for the Reason of Existence\" or the \"Memory of the Ancients.\" - Usage : Change Skill Add-ons or restore an item's Max Durability. - Durability recovered varies by the item's grade (x5 with Artisan's Memory). White = +10 Green = +5 Blue = +2 Yell"
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044195.webp",
+      "sell": null,
+      "buy": 500000,
+      "th": {
+        "name": "สะเก็ดแห่งความทรงจำ",
+        "desc": "สิ่งของที่เรียกว่า 'ตามหาความหมายของการมีชีวิต' , 'ความทรงจำของคนโบราณ' - สถานที่ใช้ : ใช้เปลี่ยน เร่งทักษะ หรือ ใช้ฟื้นฟูความทนทานสูงสุดของไอเทม - การฟื้นฟูความทนทานสูงสุดจะแตกต่างกันไป ตามระดับของไอเทม สีขาว = ฟื้นฟู 10 สีเขียว = ฟื้นฟู 5 สีฟ้า = ฟื้นฟู 2 สีเหลือง = ฟื้นฟู 1 สี"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44195/",
+        "th": "https://bdocodex.com/th/item/44195/"
+      }
+    },
+    "44322": {
+      "seaen": {
+        "name": "Mushroom Hypha",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044322.webp",
+      "sell": 1000,
+      "buy": 10000,
+      "th": {
+        "name": "สปอร์เห็ด",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44322/",
+        "th": "https://bdocodex.com/th/item/44322/"
+      }
+    },
+    "44362": {
+      "seaen": {
+        "name": "Garmoth's Heart",
+        "desc": "A crystal instilled with the concentrated fiery magic of Garmoth. While not the actual heart of Garmoth, it is popularly dubbed so due to the dragon's powerful magic contained within. The Black Stone's influence has made it bear a dark and murky hue. ※ You can accept a quest upon"
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044362.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "หัวใจของกามอส",
+        "desc": "อัญมณีที่มีพลังเวทอันโชติช่วงของกามอส ไม่ใช่หัวใจจริงๆ แต่เราเรียกอัญมณีที่มีพลังเวทอันแข็งแกร่งว่าหัวใจของกามอส แต่สีขุ่นไปเพราะได้รับอิทธิพลจากพลังของหินสีดำ ※ นำไปให้ฮิวโกล ช่างตีเหล็กแห่งเดอร์เวนครูน เพื่อรับเควส ( RMB เพื่อดูตำแหน่งเพิ่มเติม) - ข้อมูลเควส #1 [ตระกูล] บันทึกข"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44362/",
+        "th": "https://bdocodex.com/th/item/44362/"
+      }
+    },
+    "44378": {
+      "seaen": {
+        "name": "Protty Fin",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044378.webp",
+      "sell": 2100,
+      "buy": 21000,
+      "th": {
+        "name": "ครีบของพรอตี้",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44378/",
+        "th": "https://bdocodex.com/th/item/44378/"
+      }
+    },
+    "44440": {
+      "seaen": {
+        "name": "Token of Bravery",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044363.webp",
+      "sell": 3445,
+      "buy": 26500,
+      "th": {
+        "name": "หลักฐานแห่งความกล้าหาญ",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44440/",
+        "th": "https://bdocodex.com/th/item/44440/"
+      }
+    },
+    "44482": {
+      "seaen": {
+        "name": "Oily Orange Mushroom",
+        "desc": "An oily orange mushroom that bears dark energies not yet identified in this world. Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044482.webp",
+      "sell": 18500,
+      "buy": 185000,
+      "th": {
+        "name": "เห็ดสีเหลืองหวานมัน",
+        "desc": "เห็ดสีเหลืองหวานมันที่มีพลังมืดแฝงอยู่ ซึ่งไม่มีใครบนโลกนี้รู้อย่างแน่ชัดว่ามันคือพลังอะไร หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44482/",
+        "th": "https://bdocodex.com/th/item/44482/"
+      }
+    },
+    "44485": {
+      "seaen": {
+        "name": "Hardened Casque",
+        "desc": "The casque of a Fogan that bears dark energies not yet identified in this world. Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044485.webp",
+      "sell": 17000,
+      "buy": 170000,
+      "th": {
+        "name": "แผงส่วนศีรษะที่แข็งแกร่งขึ้น",
+        "desc": "แผงส่วนศีรษะของฟอร์กันที่มีพลังมืดแฝงอยู่ ซึ่งไม่มีใครบนโลกนี้รู้อย่างแน่ชัดว่ามันคือพลังอะไร หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44485/",
+        "th": "https://bdocodex.com/th/item/44485/"
+      }
+    },
+    "44490": {
+      "seaen": {
+        "name": "Starlit Jade Powder",
+        "desc": "The Okjinsini are known to commune with Jadeite. They can also hide in the shadows due largely in part to a special Jade powder, which is said to fall like shooting stars when they move. Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044490.webp",
+      "sell": 20140,
+      "buy": 201400,
+      "th": {
+        "name": "ผงแสงดาวสีเพลิงมรกต",
+        "desc": "เหล่าแดนเหมันต์เป็นที่เลื่องลือว่าสามารถสื่อกับหินเพลิงมรกตได้ ว่ากันว่าเหตุผลที่พวกเขาสามารถซ่อนตัวในเงามืดได้นั้น เป็นเพราะผงสีเพลิงมรกตพิเศษ และบางทีที่เคลื่อนไหว ผลนั้นจะตกลงมาราวกับดวงดาวอีกด้วย หากนำไปให้นักขายในหมู่บ้าน น่าจะขายได้ในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44490/",
+        "th": "https://bdocodex.com/th/item/44490/"
+      }
+    },
+    "44516": {
+      "seaen": {
+        "name": "Bronze Fragment of Delusion",
+        "desc": "A fragment bearing the delusions of the Gyfin Rhasia ancient weapons that have stood guard without purpose for ages. All who were bound to the Gyfin Rhasia Temple by a contract with the Tooth Fairy lost all memories of the past. Only emotions unknown remain and filled up the unde"
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00044516.webp",
+      "sell": 25120,
+      "buy": 251200,
+      "th": {
+        "name": "ชิ้นส่วนทองสัมฤทธิ์ที่ไร้ความคิด",
+        "desc": "ชิ้นส่วนไร้ความคิดของเหล่าอาวุธไกฟินราห์เซีย ที่คอยพิทักษ์วิหารไกฟินราห์เซียอย่างไร้เป้าหมายมาเป็นเวลานาน อาวุธเหล่านั้นที่ผูกติดกับวิหารไกฟินราห์เซียตามสัญญาที่ทำไว้กับนางฟ้าฟัน ได้สูญเสียความทรงจำในอดีตไปจนหมด เหลือไว้เพียงแต่ความรู้สึกปริศนา และส่งผลถึงชั้นใต้ดินของวิหารไกฟินร"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/44516/",
+        "th": "https://bdocodex.com/th/item/44516/"
+      }
+    },
+    "47031": {
+      "seaen": {
+        "name": "Value Pack (1 Day)",
+        "desc": "Provides the following benefits for 1 day upon acquisition: Inventory Slot +16 Storage Slot +16 Combat/Skill/Life/Mount EXP +30% Distant Node Investment (Consumes 10 Energy) Weight Limit +200 LT +30% Silver Collection upon Central Market Sales (Excluding Pearl Items) Unlimited Us"
+      },
+      "icon": "/items/new_icon/09_cash/00017583.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "ห่อสารพัดประโยชน์ (1 วัน)",
+        "desc": "นับตั้งแต่ที่ได้รับไอเทม จะได้รับสิทธิประโยชน์ต่อไปนี้ 1 วัน ขยายช่องกระเป๋า 16 ช่อง ขยายคลังเก็บของ 16 ช่อง ค่าประสบการณ์ต่อสู้/ทักษะ/ชีวิต/พาหนะ +30% ลงทุนฐานระยะไกล (เสียกำลัง 10) น้ำหนักสูงสุด +200LT จำนวนเงินที่ได้รับจากตลาดซื้อขาย +30% (ยกเว้นสินค้าร้านค้าเพิร์ล) สามารถรับค"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/47031/",
+        "th": "https://bdocodex.com/th/item/47031/"
+      }
+    },
+    "49011": {
+      "seaen": {
+        "name": "Ship License: Epheria Sailboat",
+        "desc": "Proof of ownership for an Epheria Sailboat, which you can retrieve from a Wharf. - Inventory: 25 , Weight Limit: 5,000 LT , Durability: 1,000,000 , Ration: 1,000,000 , Acceleration: 100% , Speed: 100% , Turn: 110% , Brake: 110% ※ How to Use 1. Press RMB on the item and navigate t"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049011.webp",
+      "sell": 10000000,
+      "buy": 30000000,
+      "th": {
+        "name": "ใบลงทะเบียนเรือ : เรือสำเภาเอเฟเรีย",
+        "desc": "สามารถรับใบแสดงความเป็นเจ้าของ [เรือสำเภาเอเฟเรีย] ได้ที่ท่าเรือของหมู่บ้าน - พื้นที่ : 25 ช่อง , น้ำหนัก : 5,000LT , ความทนทาน : 1,000,000 , เสบียง : 1,000,000 , ความเร่ง : 100% , ความเร็ว : 100% , แรงหมุน : 110% , เบรค : 110% ※ วิธีการใช้ใบลงทะเบียนเรือ 1. RMBเพื่อใช้งานใบลงทะเ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49011/",
+        "th": "https://bdocodex.com/th/item/49011/"
+      }
+    },
+    "49013": {
+      "seaen": {
+        "name": "Camping Tool",
+        "desc": "Using the item will activate the Campsite icon and allow you to set up camps outdoor. You can set up an anvil and shop in the campsite, so you can use various functions in the fields far from the village. You can only register one camping tool per Family, and you cannot cancel th"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049013.webp",
+      "sell": 1000000,
+      "buy": 10000000,
+      "th": {
+        "name": "อุปกรณ์ค่ายทหาร",
+        "desc": "เมื่อใช้ไอเทม ไอคอนค่ายทหารจะปรากฏขึ้น ทำให้สามารถติดตั้งเต็นท์ได้ เมื่อติดตั้งเต็นท์แล้ว จะสามารถติดตั้งหีบเก็บของ, ทั่งตีเหล็ก, ร้านค้า เพื่ออำนวยความสะดวก ในค่ายทหารที่ห่างไกลจากหมู่บ้านได้ อุปกรณ์ค่ายทหารนั้นลงทะเบียนได้สูงสุดเพียง 1 อัน - วิธีใช้ : RMBเพื่อใช้งาน จะสามารถตรว"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49013/",
+        "th": "https://bdocodex.com/th/item/49013/"
+      }
+    },
+    "49021": {
+      "seaen": {
+        "name": "Ship License: Epheria Carrack",
+        "desc": "Proof of ownership for an Epheria Carrack, which you can retrieve from a Wharf. - Inventory: 12 , Weight: 25,000 LT , Durability: 1,350,000 , Ration: 1,300,000 , Acceleration: 110% , Speed: 110% , Turn: 120% , Brake: 120% ※ How to Use 1. Press RMB on the item and navigate to the"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049021.webp",
+      "sell": 70000000,
+      "buy": 3000000000,
+      "th": {
+        "name": "ใบลงทะเบียนเรือ : เรือคาร์แร็คเอเฟเรีย",
+        "desc": "สามารถรับใบแสดงความเป็นเจ้าของ [เรือคาร์แร็คเอเฟเรีย] ได้ที่ท่าเรือของหมู่บ้าน - พื้นที่ : 12 ช่อง , น้ำหนัก : 25,000LT , ความทนทาน : 1,350,000 , เสบียง : 1,300,000 , ความเร่ง : 110% , ความเร็ว : 110% , แรงหมุน : 120% , เบรค : 120% ※ วิธีการใช้ใบลงทะเบียนเรือ 1. RMBเพื่อใช้งานใบล"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49021/",
+        "th": "https://bdocodex.com/th/item/49021/"
+      }
+    },
+    "49023": {
+      "seaen": {
+        "name": "Ship License: Epheria Caravel",
+        "desc": "Proof of ownership for an Epheria Caravel, which you can retrieve from a Wharf. - Inventory: 30 , Weight: 10,000 LT , Durability: 1,000,000 , Ration: 1,100,000 Acceleration: 100% , Speed: 100% , Turn: 110% , Brake: 110% ※ How to Use 1. Press RMB on the item and navigate to the ne"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049023.webp",
+      "sell": 55000000,
+      "buy": 300000000,
+      "th": {
+        "name": "ใบลงทะเบียนเรือ : เรือการค้าเอเฟเรีย",
+        "desc": "สามารถรับใบแสดงความเป็นเจ้าของ [เรือการค้าเอเฟเรีย] ได้ที่ท่าเรือของหมู่บ้าน - พื้นที่ : 30 ช่อง , น้ำหนัก : 10,000LT , ความทนทาน : 1,000,000 , เสบียง : 1,100,000 , ความเร่ง : 100% , ความเร็ว : 100% , แรงหมุน : 110% , เบรค : 110% ※ วิธีการใช้ใบลงทะเบียนเรือ 1. RMBเพื่อใช้งานใบลงท"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49023/",
+        "th": "https://bdocodex.com/th/item/49023/"
+      }
+    },
+    "49028": {
+      "seaen": {
+        "name": "Ship License: Bartali Sailboat",
+        "desc": "A license of a ship that once belonged to Proix, the former first mate of the Marlin guild. After retiring, Proix steered the ship to Velia. This license proves your ownership of a Bartali Sailboat, which you can retrieve from a Wharf. - Inventory: 3 , Weight: 2,000 LT , Durabili"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049014.webp",
+      "sell": 100000,
+      "buy": 10000000,
+      "th": {
+        "name": "ใบลงทะเบียนเรือ : เรือสำเภาบาทัลลี่",
+        "desc": "พลาวาที่เคยเป็นผู้ช่วยกัปตันของกิลด์ปลากระโทงลาย ได้เกษียณและนำใบลงทะเบียนเรือของเรือที่นำมาสู่เวเรีย สามารถรับใบแสดงความเป็นเจ้าของ [เรือสำเภาบาทัลลี่] ได้ที่ท่าเรือของหมู่บ้าน - พื้นที่ : 3 ช่อง , น้ำหนัก : 2,000LT , ความทนทาน : 700,000 , เสบียง : 1,000,000 , ความเร่ง : 80% , ค"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49028/",
+        "th": "https://bdocodex.com/th/item/49028/"
+      }
+    },
+    "49806": {
+      "seaen": {
+        "name": "Old Moon Camping Tent",
+        "desc": "Tents that are set up at the campsite. You can rest inside and relax. Normal Enhance: x 1 Durability Decrease at Fail: 0 Perfect Enhance (100% Chance): Not Avaiable Durability Decrease: 0 Next level: - Cron Stone x 0 Total: - Cron Stone x 0"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00049806.webp",
+      "sell": 200000,
+      "buy": 1000000,
+      "th": {
+        "name": "เต็นท์ค่ายโอลด์มูน",
+        "desc": "เต็นท์ที่ถูกติดตั้งไว้ที่ค่าย ท่านสามารถนอนพักด้านในของเต็นท์ได้ การเพิ่มประสิทธิภาพปกติ: x 1 ความทนทานลดลงเมื่อล้มเหลว: 0 Perfect Enhance (โอกาส 100%): ไม่สามารถใช้ได้ ความทนทานลดลง: 0 ระดับถัดไป: - หินครอน x 0 เพิ้มทั้งหมด: - หินครอน x 0"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/49806/",
+        "th": "https://bdocodex.com/th/item/49806/"
+      }
+    },
+    "54003": {
+      "seaen": {
+        "name": "Lump of Raw Sugar",
+        "desc": "This small lump of raw sugar holds a sweetness that horses find especially irresistible. - Usage : After catching a horse with a Capturing Rope , approach the horse and use the item to tame it. - How to Obtain : Processing (L) - Heating with the following materials Raw Sugar x10"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00054003.webp",
+      "sell": 30,
+      "buy": 300,
+      "th": {
+        "name": "ก้อนน้ำตาลทรายดิบ",
+        "desc": "ความหอมหวานที่ม้าโปรดปรานเป็นพิเศษ ได้ถูกรวมไว้ในน้ำตาลทรายดิบชิ้นเล็กๆ นี้ - สถานที่ใช้ : หลังจากจับม้าได้ด้วย เชือกสำหรับจับสัตว์ ให้เข้าไปใกล้ม้า แล้วใช้ไอเทมนี้เพื่อจับม้า - สถานที่รับ : ใช้วัตถุดิบด้านล่างที่การแปรรูป (L) - การหลอม น้ำตาลทรายดิบ x10 น้ำเปล่าสำหรับทำอาหาร x1"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/54003/",
+        "th": "https://bdocodex.com/th/item/54003/"
+      }
+    },
+    "54031": {
+      "seaen": {
+        "name": "Laila's Petal",
+        "desc": "Fairy Laila's aura from the unstable rift. Take two to Fairy Queen Theiah to get a \"Sealed Fairy Wings,\" containing a Fairy within. - How to Use: From Lv. 53, complete the Calpheon Main Quest then talk to the Black Spirit to accept and complete the \"Fairy Queen Theiah\" questline."
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00054031.webp",
+      "sell": 500000,
+      "buy": 5000000,
+      "th": {
+        "name": "กลีบดอกไม้ของเรย์รา",
+        "desc": "พลังของนางฟ้าเรย์ราที่ไหลออกมาจากช่องว่างที่ยังไม่เสถียร เมื่อรวบรวมได้ 2 อันแล้วนำไปให้เธอาห์ ราชินีนางฟ้าแห่งวิหารคามาซิลฟ์ จะสามารถแลกเปลี่ยนเป็น 'ปีกนางฟ้าปิดผนึก' ที่ใช้อัญเชิญนางฟ้าออกมาได้ - วิธีใช้ : Lv.53 ขึ้นไป, หลังสำเร็จเควสหลักคาลเพออน สำเร็จเควสต่อเนื่อง 'เธอาห์ ราช"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/54031/",
+        "th": "https://bdocodex.com/th/item/54031/"
+      }
+    },
+    "56327": {
+      "seaen": {
+        "name": "Discarded Kkebicap",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00065332.webp",
+      "sell": 52571,
+      "buy": 525710,
+      "th": {
+        "name": "หมวกประจำตำแหน่งโดเกบีที่ถูกทิ้ง",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/56327/",
+        "th": "https://bdocodex.com/th/item/56327/"
+      }
+    },
+    "56328": {
+      "seaen": {
+        "name": "Faded Bandit Mask",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00065249.webp",
+      "sell": 20520,
+      "buy": 205200,
+      "th": {
+        "name": "หน้ากากโจรป่าสีจาง",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/56328/",
+        "th": "https://bdocodex.com/th/item/56328/"
+      }
+    },
+    "56334": {
+      "seaen": {
+        "name": "Thorn-Entwined Weapon Fragment",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00065335.webp",
+      "sell": 96040,
+      "buy": 1492100,
+      "th": {
+        "name": "สะเก็ดอาวุธที่ถูกพันด้วยหนาม",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/56334/",
+        "th": "https://bdocodex.com/th/item/56334/"
+      }
+    },
+    "56339": {
+      "seaen": {
+        "name": "Corrupted Sanguine Crystal",
+        "desc": "A corrupted sanguine crystal left behind by creatures of despair, born of the Blackstar. Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00767251.webp",
+      "sell": 155000,
+      "buy": 1550000,
+      "th": {
+        "name": "ผลึกสีเลือดเสื่อมเสีย",
+        "desc": "ผลึกสีเลือดเสื่อมเสีย จากสิ่งประดิษฐ์แห่งความสิ้นหวังที่เกิดจากดวงดาวรัตติกาล หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/56339/",
+        "th": "https://bdocodex.com/th/item/56339/"
+      }
+    },
+    "59800": {
+      "seaen": {
+        "name": "Howling Bone Fragment",
+        "desc": "A fragment of howling bone armor imbued with dark energies not yet identified by experts of this world. Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00059800.webp",
+      "sell": 26190,
+      "buy": 261900,
+      "th": {
+        "name": "ชิ้นส่วนกระดูกที่กรีดร้อง",
+        "desc": "ชิ้นส่วนกระดูกที่กรีดร้องที่มีพลังมืดแฝงอยู่ ซึ่งไม่มีใครบนโลกนี้รู้อย่างแน่ชัดว่ามันคือพลังอะไร หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/59800/",
+        "th": "https://bdocodex.com/th/item/59800/"
+      }
+    },
+    "59880": {
+      "seaen": {
+        "name": "Corrupt Power Source",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00059880.webp",
+      "sell": 25190,
+      "buy": 251900,
+      "th": {
+        "name": "พลังที่เสื่อมโทรม",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/59880/",
+        "th": "https://bdocodex.com/th/item/59880/"
+      }
+    },
+    "64687": {
+      "seaen": {
+        "name": "Human Worker (Olvia)",
+        "desc": "Employment Contract of a Human Worker. Human Workers have more luck and sometimes find extra items while Gathering. - Affiliation: Olvia Usage effect: Employment Contract: Human Worker"
+      },
+      "icon": "/items/new_icon/03_etc/09_petitem/00064001.webp",
+      "sell": null,
+      "buy": 3500,
+      "th": {
+        "name": "คนงานมนุษย์ (โอลเบีย)",
+        "desc": "ใบสัญญาจ้างคนงานมนุษย์ คนงานมนุษย์มีโชคลาภมากกว่าคนงานอื่นๆ จึงมีโอกาสสูงที่จะได้รับไอเทมเพิ่มเติมจากการเก็บรวบรวม ▶ สังกัด : หมู่บ้านโอลเบีย ผลการใช้งาน: ใบสัญญาจ้าง : คนงานมนุษย์"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/64687/",
+        "th": "https://bdocodex.com/th/item/64687/"
+      }
+    },
+    "65298": {
+      "seaen": {
+        "name": "Vipiko's Dreaming Horse",
+        "desc": "Vipiko's Rocking Horse regains its original power momentarily thanks to the calling horn. - Selectable items: Horse Emblem: Dream Doom (Female) Horse Emblem: Dream Diné (Female) Horse Emblem: Dream Arduanatt (Female) Horse Emblem: Dream Doom (Male) Horse Emblem: Dream Diné (Male)"
+      },
+      "icon": "/items/new_icon/03_etc/00065298.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "ม้าโยกช่างฝันของวีพีโก",
+        "desc": "ม้าโยกของเล่นของวีพีโกที่ได้รับพลังจากแตรเขาม้า ทำให้ได้รับพลังเดิมกลับคืนมา - เซตสินค้าที่สามารถเลือกได้ แผ่นแลกม้า : ม้ามายา ดูม (ตัวเมีย) แผ่นแลกม้า : ม้ามายา ดีเน่ (ตัวเมีย) แผ่นแลกม้า : ม้ามายา อาดัวนาร์ท (ตัวเมีย) แผ่นแลกม้า : ม้ามายา ดูม (ตัวผู้) แผ่นแลกม้า : ม้ามายา ดีเน่"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/65298/",
+        "th": "https://bdocodex.com/th/item/65298/"
+      }
+    },
+    "65328": {
+      "seaen": {
+        "name": "Tungrad Ruins Fragment",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00065328.webp",
+      "sell": 35100,
+      "buy": 351000,
+      "th": {
+        "name": "สะเก็ดซากปรักหักพังทุนกราท",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/65328/",
+        "th": "https://bdocodex.com/th/item/65328/"
+      }
+    },
+    "65330": {
+      "seaen": {
+        "name": "Decayed Cloth",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00065330.webp",
+      "sell": 45570,
+      "buy": 455700,
+      "th": {
+        "name": "ชิ้นส่วนผ้าที่เปื่อยยุ่ย",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/65330/",
+        "th": "https://bdocodex.com/th/item/65330/"
+      }
+    },
+    "695116": {
+      "seaen": {
+        "name": "Tuvala Axe",
+        "desc": "An axe engraved with a crow emblem, crafted on a faraway misty island. ※ This item cannot be enhanced with Caphras Stones. ※ If enhanced to PEN (V), use the \"Essence of Ascent - Weapon\" for guaranteed enhancement to HEX (VI), then continue enhancing to DEC (X) with Concentrated M"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00694116.webp",
+      "sell": 10000,
+      "buy": 100000,
+      "th": {
+        "name": "ขวานทูบัลล่า",
+        "desc": "ขวานที่มีสัญลักษณ์รูปอีกาแกะสลักอยู่ ทำขึ้นที่เกาะที่ถูกปกคลุมไปด้วยหมอกที่ทะเลอันไกลโพ้น ※ ไอเทมนี้ไม่สามารถเสริมประสิทธิภาพคาพลาสได้ ※ กรณีที่เป็นระดับเบญจ (V) สามารถใช้ 'น้ำบริสุทธิ์ก้าวกระโดด - อาวุธ' เพื่อเสริมประสิทธิภาพแน่นอนเป็นระดับฉะ (VI) แล้วใช้หินดำเวทมนตร์ควบแน่นเพื่"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/695116/",
+        "th": "https://bdocodex.com/th/item/695116/"
+      }
+    },
+    "705503": {
+      "seaen": {
+        "name": "Loggia Ring",
+        "desc": "A ring Camelia Loggia made to help with life skills. It increases All Life Skill Mastery . - It can be enhanced with Black Gem, but if enhancement fails, both will be lost. ※ Go to My Information (P) > Life Skill tab to read more about Life Skill Mastery."
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00705130.webp",
+      "sell": 10000,
+      "buy": 1000000,
+      "th": {
+        "name": "แหวนโลเกีย",
+        "desc": "แหวนที่คาเมเลีย โลเกียผลิตขึ้น เพื่อใช้ในการดำรงชีวิต ช่วย เพิ่มทักษะความชำนาญชีวิตทั้งหมด - สามารถเสริมประสิทธิภาพได้โดยใช้ผลึกทมิฬ แต่ถ้าล้มเหลวทุกอย่างจะหายไป ※ สามารถดูรายละเอียดผลที่ได้รับจากทักษะความชำนาญชีวิต ที่ ข้อมูลส่วนตัว (P) - แท็บชีวิต"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/705503/",
+        "th": "https://bdocodex.com/th/item/705503/"
+      }
+    },
+    "705533": {
+      "seaen": {
+        "name": "Preonne Necklace",
+        "desc": "In ages past, the spirit of abundance and life, Preonne, crafted a necklace with unparalleled skill for the most exceptional of artisans. It is said that those who don this necklace are bestowed with the mystical blessing of the spirits, enhancing their craftsmanship to extraordi"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/15_necklace/00705533.webp",
+      "sell": null,
+      "buy": 160000000,
+      "th": {
+        "name": "สร้อยพลีโอนี",
+        "desc": "สร้อยที่พลีโอนี วิญญาณผู้พิทักษ์ความอุดมสมบูรณ์ และการดำรงชีวิตในอดีตสร้างขึ้น เพื่อมอบให้แก่ผู้ที่มีความเชี่ยวชาญด้านการดำรงชีวิต เชื่อกันว่าผู้ที่สวมใส่จะได้รับพรลึกลับที่ช่วยเพิ่มฝีมือ และนำพาความอุดมสมบูรณ์มาให้ - เมื่อสวมใส่ ความชำนาญชีวิตทั้งหมด จะเพิ่มขึ้น - สามารถเสริมประ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/705533/",
+        "th": "https://bdocodex.com/th/item/705533/"
+      }
+    },
+    "721003": {
+      "seaen": {
+        "name": "Caphras Stone",
+        "desc": "The immortal alchemist Caphras used stones as these as the ultimate catalyst. Sometimes referred to as the solar stone, the stone emits an intense and pure energy. It can be used to unlock the full potential of a gear without the risk of experiencing any dark, corrosive side effe"
+      },
+      "icon": "/items/new_icon/03_etc/00721003.webp",
+      "sell": 300000,
+      "buy": 2250000,
+      "th": {
+        "name": "หินคาพลาส",
+        "desc": "หินที่นักเล่นแร่แปรธาตุอมตะ คาพลาสใช้เป็นสารเร่งสุดท้าย มีพลังที่แข็งแกร่งและบริสุทธิ์ มีฉายาว่าหินดวงอาทิตย์ ไม่มีผลข้างเคียงกัดกินความมืด สามารถดึงพลังที่หลับใหลในเครื่องมือได้อย่างปลอดภัย - สถานที่ใช้ : เสริมประสิทธิภาพคาพลาสเพื่อดึงประสิทธิภาพของอุปกรณ์ระดับตรี (III) ขึ้นไป -"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/721003/",
+        "th": "https://bdocodex.com/th/item/721003/"
+      }
+    },
+    "742269": {
+      "seaen": {
+        "name": "Kabua's Artifact",
+        "desc": "An artifact of King Kabua, who voluntarily chose to rest eternally with his kingdom by turning himself into a kyve. - Usage : Equip - How to Obtain : Defeat certain monsters in Darkseekers' Retreat, Yzrahid Highlands, and City of the Dead Item Effect Extra AP Against Monsters +7"
+      },
+      "icon": "/items/new_icon/03_etc/00757242.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "วัตถุโบราณของคาบูอา",
+        "desc": "วัตถุโบราณของกษัตริย์คาบูอา ที่ตัดสินใจกลายเป็นไคฟ์ด้วยตนเอง เพื่ออยู่เคียงข้างอาณาจักรตลอดไป และหลับใหลอยู่ ณ อาเทชูซาห์ลา - สถานที่ใช้ : ติดตั้งเพื่อใช้งาน - สถานที่รับ : รับได้จากการกำจัดมอนสเตอร์บางชนิด ในพื้นที่แหล่งกบดานผู้ติดตามความมืดมิด, ที่ราบสูงอิสราฮิด, เมืองแห่งผู้วา"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/742269/",
+        "th": "https://bdocodex.com/th/item/742269/"
+      }
+    },
+    "747206": {
+      "seaen": {
+        "name": "Sovereign Blade",
+        "desc": "The Heavenly Emperor, manifesting on Mount Ahshi, decreed to Bonghwang, \"Become a beacon that illuminates this land alongside my son.\" Thus, he entrusted the heavenly relic, imbued with sacred energies. ※ You can activate Reforge Stone effects on this item via the Reforge Stones"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00747206.webp",
+      "sell": null,
+      "buy": 285000000,
+      "th": {
+        "name": "มีดดาบราชัน",
+        "desc": "อาวุธที่มีพลังอันแสนล้ำค่าซึ่งเป็นสมบัติจากสวรรค์ ที่เทพเจ้าแห่งภูเขาอาชีได้มอบให้แก่บงฮวัง พร้อมกล่าวว่า \"จงเป็นโคมไฟที่ส่องสว่างประเทศแห่งนี้ ร่วมกับบุตรชายของข้า\" ※ ไอเทมนี้สามารถเปิดใช้งานผลของหินขึ้นรูปได้ ผ่านการจัดการหินขึ้นรูป ※ ไอเทมนี้ไม่สามารถเสริมประสิทธิภาพคาพลาสได้"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/747206/",
+        "th": "https://bdocodex.com/th/item/747206/"
+      }
+    },
+    "756001": {
+      "seaen": {
+        "name": "Tidal Black Stone",
+        "desc": "A Black Stone bearing the might of turbulent tides used to draw out a special power from ship equipment. - Press RMB to start enhancement - Usage : Upgrade ship equipment - How to Obtain Exchange with Crow Coin x10 at the Crow Coin Shop Barter with [Level 1 to 4] Sea Trade Goods"
+      },
+      "icon": "/items/new_icon/03_etc/00756005.webp",
+      "sell": 2,
+      "buy": 10,
+      "th": {
+        "name": "หินดำแห่งคลื่นน้ำ",
+        "desc": "หินดำที่มีพลังของคลื่นน้ำที่โหมพัดกระหน่ำอยู่ ใช้ในการดึงพลังพิเศษของอุปกรณ์สำหรับเรือออกมา - RMB เพื่อเสริมประสิทธิภาพ - สถานที่ใช้ : เสริมประสิทธิภาพ อุปกรณ์สำหรับเรือ - สถานที่รับ แลกเปลี่ยนที่ ร้านค้าอีกาดำ โดยใช้ เหรียญตราอีกาดำ 10 อัน แลก สินค้าการค้าทางทะเล [ระดับ 1~4] แลก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/756001/",
+        "th": "https://bdocodex.com/th/item/756001/"
+      }
+    },
+    "761924": {
+      "seaen": {
+        "name": "Blessing of Olvia Academy",
+        "desc": "Cast a coin into the fountain, and fortune settles upon you. The following effect is granted for 180 min : Luck +5 Usage effect: Olvia Academy Fountain Buff"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/dropdouble.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "พรของสถาบันโอลเบีย",
+        "desc": "เมื่อโยนเหรียญลงไปในน้ำพุ โชคลาภก็มาเยือน จะได้รับผลประโยชน์ดังนี้ เป็นเวลา 180 นาที โชคลาภ +5 ระดับ ผลการใช้งาน: บัฟน้ำพุสถาบันโอลเบีย"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/761924/",
+        "th": "https://bdocodex.com/th/item/761924/"
+      }
+    },
+    "767350": {
+      "seaen": {
+        "name": "Sulfur Golem Fragment",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00767350.webp",
+      "sell": 165508,
+      "buy": 1655080,
+      "th": {
+        "name": "สะเก็ดโกเลมกำมะถัน",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/767350/",
+        "th": "https://bdocodex.com/th/item/767350/"
+      }
+    },
+    "790873": {
+      "seaen": {
+        "name": "Ancient Black Stone - PEN (V)",
+        "desc": "A special Black Stone imbued with the will and wisdom of the ancients, radiating a mysterious energy. - Used to perform guaranteed enhancement on Kharazad Accessories to HEX (VI). Stone required for PEN (V) to HEX (VI): 1 - Able to enhance: Kharazad Necklace, Ring, Belt, Earring"
+      },
+      "icon": "/items/new_icon/03_etc/00790873.webp",
+      "sell": null,
+      "buy": 1500000000,
+      "th": {
+        "name": "หินดำโบราณ - เบญจ (V)",
+        "desc": "หินดำพิเศษที่สัมผัสได้ถึงกำลังอันลึกลับ ซึ่งแฝงไว้ด้วยความมุ่งมั่นและสติปัญญาแห่งยุคโบราณ - สามารถใช้เสริมประสิทธิภาพเครื่องประดับคาราจาร์ดระดับ ฉะ (VI) ได้ในอัตราที่แน่นอน ผ่านภูตดำ จำนวนที่ต้องการ เพื่อเสริมประสิทธิภาพระดับ ฉะ (VI) : 1 อัน - ไอเทมที่สามารถเสริมประสิทธิภาพได้ :"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/790873/",
+        "th": "https://bdocodex.com/th/item/790873/"
+      }
+    },
+    "933601": {
+      "seaen": {
+        "name": "Evergreen Orb",
+        "desc": "A mysterious orb imbued with the pure and clear energy of nature. - Usage : Equip - How to Obtain : Processing (L) - Simple Alchemy with the following materials Evergreen Shard x1"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/00_etc/00933601.webp",
+      "sell": null,
+      "buy": null,
+      "th": {
+        "name": "แก้วมณีเสียงใส",
+        "desc": "แก้วมณีลึกลับที่เปี่ยมด้วยพลังแห่งธรรมชาติ สัมผัสได้ถึงพลังอันบริสุทธิ์และแจ่มใส - สถานที่ใช้ : ติดตั้งเพื่อใช้งาน - สถานที่รับ : ใช้วัตถุดิบด้านล่างที่การแปรรูป (L) - การแปรธาตุอย่างง่าย ผลึกเสียงใส x1"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/933601/",
+        "th": "https://bdocodex.com/th/item/933601/"
+      }
+    },
+    "980132": {
+      "seaen": {
+        "name": "Broken Gloves of the Void",
+        "desc": "Vendors would buy this item at a fair price."
+      },
+      "icon": "/items/new_icon/03_etc/04_dropitem/00980132.webp",
+      "sell": 196501,
+      "buy": 1965010,
+      "th": {
+        "name": "ถุงมือแห่งความว่างเปล่าที่แตกสลาย",
+        "desc": "หากนำไปขายให้กับนักการค้าในหมู่บ้าน จะได้รับค่าตอบแทนในราคาที่เหมาะสม"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/980132/",
+        "th": "https://bdocodex.com/th/item/980132/"
+      }
+    }
+  },
+  "npcs": {
+    "20848": {
+      "seaen": {
+        "name": "Gyfin Rhasia Decimator"
+      },
+      "art": "/items/ui_artwork/ic_05088.webp",
+      "level": 62,
+      "th": {
+        "name": "มือสังหารไกฟินราห์เซีย"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/20848/",
+        "th": "https://bdocodex.com/th/npc/20848/"
+      }
+    },
+    "21012": {
+      "seaen": {
+        "name": "Tungrad Ascetic"
+      },
+      "art": "/items/ui_artwork/ic_05235.webp",
+      "level": 64,
+      "th": {
+        "name": "นักพรตทุนกราท"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21012/",
+        "th": "https://bdocodex.com/th/npc/21012/"
+      }
+    },
+    "21025": {
+      "seaen": {
+        "name": "Mournful Darkseeker"
+      },
+      "art": "/items/ui_artwork/ic_05240.webp",
+      "level": 65,
+      "th": {
+        "name": "ผู้ติดตามความมืดมิดคร่ำครวญ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21025/",
+        "th": "https://bdocodex.com/th/npc/21025/"
+      }
+    },
+    "21465": {
+      "seaen": {
+        "name": "Sycrid"
+      },
+      "art": "/items/ui_artwork/ic_014725.webp",
+      "level": 57,
+      "th": {
+        "name": "ซีคริท"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21465/",
+        "th": "https://bdocodex.com/th/npc/21465/"
+      }
+    },
+    "21601": {
+      "seaen": {
+        "name": "Red Skirt Poison Mushroom"
+      },
+      "art": "/items/ui_artwork/ic_05078.webp",
+      "level": 57,
+      "th": {
+        "name": "เห็ดพิษสีแดง"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21601/",
+        "th": "https://bdocodex.com/th/npc/21601/"
+      }
+    },
+    "21711": {
+      "seaen": {
+        "name": "Garud"
+      },
+      "art": "/items/ui_artwork/ic_05114.webp",
+      "level": 58,
+      "th": {
+        "name": "กาวด์"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21711/",
+        "th": "https://bdocodex.com/th/npc/21711/"
+      }
+    },
+    "21792": {
+      "seaen": {
+        "name": "Seculion"
+      },
+      "art": "/items/ui_artwork/ic_05243.webp",
+      "level": 63,
+      "th": {
+        "name": "ซิเคอร์เลียน"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21792/",
+        "th": "https://bdocodex.com/th/npc/21792/"
+      }
+    },
+    "21921": {
+      "seaen": {
+        "name": "Apostle of Corruption"
+      },
+      "art": "/items/ui_artwork/ic_05953.webp",
+      "level": 65,
+      "th": {
+        "name": "สาวกแห่งความทุจริต"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/21921/",
+        "th": "https://bdocodex.com/th/npc/21921/"
+      }
+    },
+    "23403": {
+      "seaen": {
+        "name": "Okjinsini Winter Keeper"
+      },
+      "art": "/items/ui_artwork/ic_01651.webp",
+      "level": 61,
+      "th": {
+        "name": "ผู้ดูแลฤดูหนาวแดนเหมันต์"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/23403/",
+        "th": "https://bdocodex.com/th/npc/23403/"
+      }
+    },
+    "24405": {
+      "seaen": {
+        "name": "Red Orc"
+      },
+      "art": "/items/ui_artwork/ic_06639.webp",
+      "level": 60,
+      "th": {
+        "name": "ออร์คแดง"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/24405/",
+        "th": "https://bdocodex.com/th/npc/24405/"
+      }
+    },
+    "24422": {
+      "seaen": {
+        "name": "Swamp Fogan"
+      },
+      "art": "/items/ui_artwork/ic_04067.webp",
+      "level": 59,
+      "th": {
+        "name": "ฟอร์กันหนองน้ำ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/24422/",
+        "th": "https://bdocodex.com/th/npc/24422/"
+      }
+    },
+    "24701": {
+      "seaen": {
+        "name": "Centarion"
+      },
+      "art": "/items/ui_artwork/ic_014036.webp",
+      "level": 66,
+      "th": {
+        "name": "เซนทาร์เรียน"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/24701/",
+        "th": "https://bdocodex.com/th/npc/24701/"
+      }
+    },
+    "24930": {
+      "seaen": {
+        "name": "Skeleton"
+      },
+      "art": "/items/ui_artwork/ic_00559.webp",
+      "level": 62,
+      "th": {
+        "name": "พลทหารโครงกระดูก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/24930/",
+        "th": "https://bdocodex.com/th/npc/24930/"
+      }
+    },
+    "25541": {
+      "seaen": {
+        "name": "Lynx Bandit"
+      },
+      "art": "/items/ui_artwork/ic_05250.webp",
+      "level": 61,
+      "th": {
+        "name": "โจรป่าแมวป่า"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/25541/",
+        "th": "https://bdocodex.com/th/npc/25541/"
+      }
+    },
+    "25547": {
+      "seaen": {
+        "name": "Prankkebi"
+      },
+      "art": "/items/ui_artwork/ic_05255.webp",
+      "level": 64,
+      "th": {
+        "name": "เกบีขี้เล่น"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/25547/",
+        "th": "https://bdocodex.com/th/npc/25547/"
+      }
+    },
+    "45555": {
+      "seaen": {
+        "name": "Vipiko"
+      },
+      "art": "/items/ui_artwork/ic_01156.webp",
+      "level": 99,
+      "th": {
+        "name": "วีพีโก"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/npc/45555/",
+        "th": "https://bdocodex.com/th/npc/45555/"
+      }
+    }
+  },
+  "quests": {
+    "3530/282": {
+      "seaen": {
+        "name": "Old Moon Guild's Survival Skill",
+        "desc": "Klau, the Old Moon Manager, reminds you that rest is just as vital as adventure. He's got a special gift ready for you. Come back and have a word with him. ※ This quest is available once per Family."
+      },
+      "level": 1,
+      "region": "Eastern Balenos",
+      "type": "Family quest",
+      "icon": "/items/new_icon/03_etc/09_petitem/00049806.webp",
+      "th": {
+        "name": "ทักษะเอาชีวิตรอดของกิลด์โอลด์มูน",
+        "desc": "โคลวล์ ผู้จัดการโอลด์มูนบอกว่า ถึงการผจญภัยจะสำคัญ แต่การได้พักผ่อนก็สำคัญไม่แพ้กัน และยังบอกด้วยว่า มีของขวัญที่เตรียมไว้สำหรับนักผจญภัย และขอให้กลับมาคุยกับเขาอีกครั้ง ※ เควสดังกล่าว สามารถทำได้ตระกูลละครั้งเท่านั้น"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/3530/282/",
+        "th": "https://bdocodex.com/th/quest/3530/282/"
+      }
+    },
+    "6802/1": {
+      "seaen": {
+        "name": "Fairy Queen Theiah",
+        "desc": "The Black Spirit felt an unknown presence in Kamasylve Temple. Go to the Kamasylve Temple where Herawen is, and look for Fairy Queen Theiah."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/fairy_001.webp",
+      "th": {
+        "name": "เธอาห์ ราชินีนางฟ้า",
+        "desc": "ภูตดำบอกว่า ได้ไปหาสิ่งมีชีวิตที่ไม่เคยเห็นมาก่อนในวิหารคามาซิลฟ์มาได้แล้ว จึงแนะนำให้ไปสถานที่ที่เฮราเวนพักอาศัยอยู่ ไปหาเธอาห์ ราชินีแห่งนางฟ้าที่วิหารคามาซิลฟ์"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/6802/1/",
+        "th": "https://bdocodex.com/th/quest/6802/1/"
+      }
+    },
+    "6802/7": {
+      "seaen": {
+        "name": "Lifelong Friends",
+        "desc": "According to the Fairy Queen, there should be more Fairies whose petals are fragmented like this. She asked you to bring Laila's Petals back to her if you find them. ※ To obtain Laila's Petal, place a Special Honey Jar at unstable rifts found outside the Kamasylve Temple area. Yo"
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/fairy_001.webp",
+      "th": {
+        "name": "สหายตลอดกาล",
+        "desc": "ราชินีนางฟ้าเธอาห์บอกว่า ยังมีเหล่านางฟ้าที่แตกสลายกลายเป็นสะเก็ดไปอยู่อีกมากและยังบอกอีกว่า ถ้าหากพบ 'กลีบดอกไม้ของเรย์รา' ให้นำกลับมาให้ตนเอง ※ สามารถรับ 'กลีบดอกไม้ของเรย์รา' ได้จากการล่า ตกปลา หรือ รวบรวม, หรือ การนำโถน้ำผึ้งชั้นหนึ่งไปวางไว้บริเวณรอยแยกที่ยังไม่เสถียร ※ เมื่"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/6802/7/",
+        "th": "https://bdocodex.com/th/quest/6802/7/"
+      }
+    },
+    "699/19": {
+      "seaen": {
+        "name": "Black Spirit's Special Gift (Maid)",
+        "desc": "Black Spirit has prepared a special gift for you. Receive the quest and talk to the Black Spirit again to receive the reward."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/black_fairy.webp",
+      "th": {
+        "name": "ของขวัญจากภูตดำ (สาวรับใช้)",
+        "desc": "ภูตดำได้เตรียมของขวัญสุดพิเศษ, รับเควส แล้วสนทนากับภูตดำ เพื่อรับของขวัญ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/699/19/",
+        "th": "https://bdocodex.com/th/quest/699/19/"
+      }
+    },
+    "699/21": {
+      "seaen": {
+        "name": "Black Spirit's Special Gift (Butler)",
+        "desc": "Black Spirit has prepared a special gift for you. Receive the quest and talk to the Black Spirit again to receive the reward."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/black_fairy.webp",
+      "th": {
+        "name": "ของขวัญจากภูตดำ (พ่อบ้าน)",
+        "desc": "ภูตดำได้เตรียมของขวัญสุดพิเศษ, รับเควส แล้วสนทนากับภูตดำ เพื่อรับของขวัญ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/699/21/",
+        "th": "https://bdocodex.com/th/quest/699/21/"
+      }
+    },
+    "683/4": {
+      "seaen": {
+        "name": "Black Spirit's Gift (Inventory Slot)",
+        "desc": "The Black Spirit is proud of your hard efforts and wants to give you a gift. Let's receive the reward from Black Spirit."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Character quest",
+      "icon": "/items/quest/black_fairy.webp",
+      "th": {
+        "name": "ของขวัญจากภูตดำ (กระเป๋า)",
+        "desc": "ภูตดำ ได้มอบของรางวัลเพื่อเป็นการชื่นชมในความตั้งใจของท่าน รับรางวัลจากภูตดำ"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/683/4/",
+        "th": "https://bdocodex.com/th/quest/683/4/"
+      }
+    },
+    "7542/1": {
+      "seaen": {
+        "name": "A Gift for Leaping Forward I",
+        "desc": "The Black Spirit has prepared a special gift to reward your continual progress. Accept the gift from the Black Spirit."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/black_fairy.webp",
+      "th": {
+        "name": "ของขวัญเพื่อการพัฒนา I",
+        "desc": "ภูตดำบอกว่าได้เตรียมของขวัญไว้ให้ข้า ผู้ที่มานะบากบั่นมา ลองรับของขวัญจากภูตดำกันดีกว่า"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/7542/1/",
+        "th": "https://bdocodex.com/th/quest/7542/1/"
+      }
+    },
+    "21416/1": {
+      "seaen": {
+        "name": "[Pet] Bartali's Buster",
+        "desc": "Igor Bartali said he will let Buster, the loyal family dog of the Bartali's, accompany you in your adventures. Talk to Igor Bartali again."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Family quest",
+      "icon": "/items/quest/00017939.webp",
+      "th": {
+        "name": "[สัตว์เลี้ยง] สุนัขขนฟูของบาทัลลี่",
+        "desc": "อีกอร์ บาทัลลี่แนะนำเจ้าขนฟู สุนัขขนฟูซื่อสัตย์ของตระกูลบาทัลลี่ที่จะเป็นเพื่อนเดินทางเมื่อออกผจญภัยในโลกใหญ่ ลองสนทนากับเขาอีกครั้ง"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/21416/1/",
+        "th": "https://bdocodex.com/th/quest/21416/1/"
+      }
+    },
+    "3706/12": {
+      "seaen": {
+        "name": "[The Great Expedition] Vigorous Velia",
+        "desc": "Chief Igor Bartali says that people are gathering in Velia. Find out what's going on."
+      },
+      "level": 1,
+      "region": "All",
+      "type": "Character quest",
+      "icon": "/items/quest/igor.webp",
+      "th": {
+        "name": "[ยุคแห่งมหาสมุทร] เวเรียแห่งความรื่นเริง",
+        "desc": "ผู้ใหญ่บ้านอีกอร์ บาทัลลี่บอกว่ามีผู้คนมารวมตัวกันอยู่ที่หมู่บ้านเวเรีย ลองฟังดูว่ามีเรื่องอะไร"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/3706/12/",
+        "th": "https://bdocodex.com/th/quest/3706/12/"
+      }
+    },
+    "21139/96": {
+      "seaen": {
+        "name": "[Calpheon] Hero of Calpheon",
+        "desc": "Jordine was defeated, but along with it, the Light of Ancient Origin eliminated some of the Black Spirit's power. Talk with Valks."
+      },
+      "level": 1,
+      "region": "Northern Calpheon",
+      "type": "Character quest",
+      "icon": "/items/quest/calpheonmain.webp",
+      "th": {
+        "name": "[คาลเพออน] วีรชนแห่งคาลเพออน",
+        "desc": "แม้ว่าจอร์ดีนจะล้มลงแล้ว แต่พลังบางส่วนของภูตดำหายไป เพราะแสงแห่งต้นกำเนิดโบราณ ลองสนทนากับบาลค์"
+      },
+      "url": {
+        "en": "https://bdocodex.com/seaen/quest/21139/96/",
+        "th": "https://bdocodex.com/th/quest/21139/96/"
+      }
+    }
+  }
+}

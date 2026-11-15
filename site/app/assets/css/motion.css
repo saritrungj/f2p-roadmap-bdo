@@ -1,0 +1,264 @@
+/* Interaction layer: hover lift, pointer spotlight, link underline, stagger, page transition.
+   Every motion here answers a user action or a state change. All of it collapses under
+   prefers-reduced-motion (see the block at the end and main.css). */
+
+:root {
+  --spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --lift-shadow: 0 18px 40px -18px color-mix(in oklch, var(--accent) 38%, transparent),
+    0 8px 24px -12px oklch(0.08 0.04 265 / 0.45);
+}
+
+/* ---------- Cards that lift on hover ---------- */
+.guide-card,
+.tip,
+.phase,
+.patch,
+.spot,
+.fact,
+.bento > *,
+.data-index a,
+.codex-links a,
+.cp-event,
+.rm-phase-box,
+.al-log,
+.start-step {
+  transition: transform 0.35s var(--ease-out), border-color 0.25s var(--ease-out),
+    box-shadow 0.35s var(--ease-out), background-color 0.25s var(--ease-out);
+}
+
+@media (hover: hover) {
+  .guide-card:hover,
+  .tip:hover,
+  .phase:hover,
+  .patch:hover,
+  .spot:hover,
+  .bento > *:hover,
+  .data-index a:hover,
+  .codex-links a:hover,
+  .cp-event:hover,
+  .al-log:hover,
+  .start-step:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in oklch, var(--accent) 45%, var(--line));
+    box-shadow: var(--lift-shadow);
+  }
+
+  /* Icons inside a hovered card nudge up with a little spring. */
+  .guide-card .codex-icon,
+  .tip .codex-icon,
+  .data-index a .codex-icon,
+  .codex-links a .codex-icon,
+  .al-log-head .codex-icon,
+  .spot-art img {
+    transition: transform 0.45s var(--spring);
+  }
+  .guide-card:hover .codex-icon,
+  .tip:hover .codex-icon,
+  .data-index a:hover .codex-icon,
+  .codex-links a:hover .codex-icon,
+  .al-log:hover .al-log-head .codex-icon {
+    transform: translateY(-2px) rotate(-4deg) scale(1.06);
+  }
+  .spot:hover .spot-art img {
+    transform: scale(1.06);
+  }
+}
+
+/* ---------- Pointer spotlight (position set by plugins/spotlight.client.ts) ---------- */
+.spot-card {
+  position: relative;
+  isolation: isolate;
+}
+.spot-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s var(--ease-out);
+  background: radial-gradient(
+    320px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in oklch, var(--accent) 13%, transparent),
+    transparent 65%
+  );
+}
+@media (hover: hover) {
+  .spot-card:hover::after {
+    opacity: 1;
+  }
+}
+
+/* ---------- Text links: underline grows from the left ---------- */
+.ulink {
+  color: var(--accent-text);
+  text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+  transition: background-size 0.35s var(--ease-out);
+}
+.ulink:hover,
+.ulink:focus-visible {
+  background-size: 100% 1px;
+}
+
+/* ---------- Nav: active page bar slides in ---------- */
+.nav-links a {
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 4px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s var(--ease-out);
+}
+.nav-links a:hover::after {
+  transform: scaleX(0.5);
+}
+.nav-links a[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+/* ---------- Primary button: arrow nudges ---------- */
+.btn svg {
+  transition: transform 0.35s var(--spring);
+}
+.btn:hover svg:last-child {
+  transform: translateX(3px);
+}
+.btn-primary {
+  box-shadow: 0 0 0 0 transparent;
+}
+.btn-primary:hover {
+  box-shadow: 0 10px 28px -12px color-mix(in oklch, var(--accent) 70%, transparent);
+  transform: translateY(-1px);
+}
+
+/* ---------- Checkbox tick pop (roadmap + adventure log) ---------- */
+@keyframes tick-pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.tick[data-on="true"] svg {
+  animation: tick-pop 0.35s var(--spring);
+}
+
+/* ---------- Stagger: children rise in on first paint ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .stagger > * {
+    animation: rise 0.6s var(--ease-out) both;
+  }
+  .stagger > *:nth-child(2) { animation-delay: 50ms; }
+  .stagger > *:nth-child(3) { animation-delay: 100ms; }
+  .stagger > *:nth-child(4) { animation-delay: 150ms; }
+  .stagger > *:nth-child(5) { animation-delay: 200ms; }
+  .stagger > *:nth-child(6) { animation-delay: 250ms; }
+  .stagger > *:nth-child(7) { animation-delay: 300ms; }
+  .stagger > *:nth-child(8) { animation-delay: 350ms; }
+  .stagger > *:nth-child(n + 9) { animation-delay: 400ms; }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Page transition (app.pageTransition name "page") ---------- */
+.page-enter-active {
+  transition: opacity 0.35s var(--ease-out), transform 0.45s var(--ease-out);
+}
+.page-leave-active {
+  transition: opacity 0.15s ease-in;
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.page-leave-to {
+  opacity: 0;
+}
+
+/* ---------- Progress bar fill animates on change ---------- */
+.meter {
+  height: 6px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: color-mix(in oklch, var(--line) 55%, transparent);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transform-origin: left;
+  transition: transform 0.6s var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-card:hover,
+  .tip:hover,
+  .phase:hover,
+  .patch:hover,
+  .spot:hover,
+  .bento > *:hover,
+  .data-index a:hover,
+  .codex-links a:hover,
+  .cp-event:hover,
+  .al-log:hover,
+  .start-step:hover,
+  .btn-primary:hover {
+    transform: none;
+  }
+  .page-enter-from {
+    transform: none;
+  }
+}
+
+/* ---------- "As of Nov 2026" stamp ---------- */
+.asof {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 16px;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in oklch, var(--accent) 40%, var(--line));
+  background: var(--accent-soft);
+  color: var(--ink-2);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+.asof svg {
+  color: var(--accent-text);
+  flex: none;
+}
+.asof strong {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+.asof-compact {
+  padding: 4px 10px;
+  font-size: 0.84rem;
+  margin-top: 10px;
+}

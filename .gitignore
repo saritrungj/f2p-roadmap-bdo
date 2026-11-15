@@ -1,0 +1,22 @@
+# dependencies and build output
+node_modules/
+.nuxt/
+.output/
+.data/
+dist/
+.netlify/
+*.tsbuildinfo
+
+# local env and secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# patch-watch drafts are reviewed locally before approval
+site/patch-watch/drafts/*
+!site/patch-watch/drafts/.gitkeep

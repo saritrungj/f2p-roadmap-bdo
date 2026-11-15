@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "title": "Northern-east heroic",
+    "description": "Northern-east heroic: calculators, a beginner guide and a 200 THB new-account roadmap for Black Desert on the Asia server. Data checked against BDOCodex."
+  },
+  "nav": {
+    "home": "Northern-east heroic home",
+    "menu": "Main menu",
+    "tools": "Calculators",
+    "roadmap": "Roadmap",
+    "guide": "Guide",
+    "patch": "Updates",
+    "tips": "Tips",
+    "cta": "Open calculators",
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode",
+    "lang": "ภาษา",
+    "switchTo": "ไทย"
+  },
+  "hero": {
+    "eyebrow": "Black Desert, Asia server",
+    "line1": "Play it smart.",
+    "line2": "Pay for the game only.",
+    "sub": "Calculators, a beginner guide and a 200 THB new-account roadmap. Checked against BDOCodex for the 12 Nov 2026 patch.",
+    "ctaRoadmap": "See roadmap"
+  },
+  "quick": {
+    "title": "Try it: accessory to PRI",
+    "chance": "Success chance",
+    "avg": "Average tries",
+    "within2": "Success within 2 tries",
+    "after18": "Past FS 18",
+    "after18v": "only +0.5% per FS",
+    "times": "{n} tries"
+  },
+  "facts": {
+    "budget": "Total budget (Traveler Edition)",
+    "budgetV": "200 THB",
+    "level": "Level cap since the 8 Oct 2026 patch",
+    "market": "Market payout with a Value Pack",
+    "calcs": "Ready-to-use calculators",
+    "calcsV": "6"
+  },
+  "bench": {
+    "title": "Calculators you will use daily",
+    "sub": "Keep it open next to the game. Type the numbers and the result updates at once. No sign-up.",
+    "choose": "Choose a calculator",
+    "tabs": {
+      "market": "Market tax",
+      "enhance": "Enhance chance",
+      "bracket": "AP / DP brackets",
+      "spots": "Grind spots for you",
+      "grind": "Silver per hour",
+      "energy": "Energy"
+    }
+  },
+  "field": {
+    "numOnly": "Numbers only",
+    "min": "Must be at least {n}",
+    "max": "Must be at most {n}"
+  },
+  "market": {
+    "title": "Central Market tax",
+    "desc": "How much silver you actually receive, and how much more a Value Pack would give you.",
+    "price": "Price per item (silver)",
+    "qty": "Quantity",
+    "vp": "Value Pack active",
+    "vpHint": "Keeps 84.5% instead of 65%",
+    "fame": "Family Fame",
+    "fameTiers": [
+      "Below 1,000",
+      "1,000+ (+0.5%)",
+      "4,000+ (+1.0%)",
+      "7,000+ (+1.5%)"
+    ],
+    "ring": "Rich Merchant's Ring",
+    "ringHint": "+5%, activate once for the whole family",
+    "net": "Silver you receive",
+    "gross": "Gross sales",
+    "rate": "Payout rate",
+    "tax": "Tax paid",
+    "vpGain": "Extra from Value Pack",
+    "vpWould": "A Value Pack would add",
+    "note": "Same formula Garmoth uses: price x 0.65 x (1 + VP 0.30 + Fame + Ring 0.05). Junk sold to NPCs is not taxed."
+  },
+  "enhance": {
+    "title": "Enhancement chance",
+    "desc": "Success chance at your failstack, average tries, and how much silver to prepare.",
+    "kind": "Gear type",
+    "armor": "Armor",
+    "weapon": "Weapon",
+    "accessory": "Accessory",
+    "level": "Target level",
+    "fs": "Failstack (FS)",
+    "tries": "Planned tries",
+    "crons": "Cron Stones per try",
+    "cronsHelp": "NPC price 3M each",
+    "extra": "Material cost per try",
+    "extraHelp": "For example the Black Stone price",
+    "chance": "Chance per try",
+    "within": "Success within {n} tries",
+    "avg": "Average tries",
+    "t90": "Tries for 90% confidence",
+    "cost": "Average cost to succeed",
+    "notSet": "Not entered",
+    "times": "{n} tries",
+    "note": "Blue/yellow-grade gear per BDFoundry (Jul 2026). Hard cap 90%.",
+    "noteAcc": "Accessories have a soft cap; both copies are lost on failure.",
+    "noteGear": "Very high FS values are estimates because the game has soft caps.",
+    "noteUi": "Since 17 Sep 2026 the in-game enhance window shows the final chance; use it to cross-check.",
+    "fsTable": "Failstacks from Black Stones via Valks: {list}",
+    "fsItem": "{bs} stones = {fs} FS"
+  },
+  "bracket": {
+    "title": "AP / DP brackets",
+    "desc": "Enter the AP and DP from your character window to see your bonus and how far the next bracket is.",
+    "ap": "AP (character window)",
+    "dp": "DP (character window)",
+    "split": "Main-hand and Awakening AP use separate brackets; check them one at a time.",
+    "bonus": "Bonus AP",
+    "nextAp": "Next AP bracket",
+    "nextApV": "{n} more AP for +{b}",
+    "dr": "Damage reduction from DP",
+    "nextDp": "Next DP bracket",
+    "nextDpV": "{n} more DP for {b}%",
+    "top": "Top of the table",
+    "note": "AP table from Garmoth (Nov 2026), up to 499 AP. Since 13 Aug 2026, DP above 481 adds 1 damage reduction per 5 DP (not included here)."
+  },
+  "spots": {
+    "title": "Grind spots for you",
+    "desc": "Enter your character-window AP and DP to see the five best-paying spots you can handle.",
+    "ap": "AP (character window)",
+    "dp": "DP (character window)",
+    "next": "Next unlock: {name}, recommended {ap} AP / {dp} DP",
+    "empty": "Nothing yet. Start at Polly's Forest (140 AP / 250 DP), or keep following the main quest for HYPERBOOST gear.",
+    "perHour": "/hr",
+    "trash": "Main junk",
+    "npcSell": "NPC sells for {price}",
+    "note": "Recommended AP/DP and silver per hour (average tier, NA/EU prices) from Garmoth. Monster names, junk names, images and NPC prices from BDOCodex.",
+    "all": "See all on Garmoth"
+  },
+  "grind": {
+    "title": "Silver per hour",
+    "desc": "Compare grind spots by real silver per hour after market tax and potion costs.",
+    "trash": "Junk per hour (pieces)",
+    "trashPrice": "NPC price per piece",
+    "market": "Market loot per hour (full price)",
+    "marketHelp": "For example Black Stones, Caphras, rare drops",
+    "cost": "Potions and repairs per hour",
+    "hours": "Hours per day",
+    "vp": "Value Pack active",
+    "vpHint": "Only affects items sold on the market",
+    "net": "Net per hour",
+    "fromTrash": "From junk (no tax)",
+    "fromMarket": "From market (after tax)",
+    "perDay": "Per day ({h} h)",
+    "perWeek": "Per week",
+    "note": "Junk NPC prices are listed in the Grind spots tab (BDOCodex data)."
+  },
+  "energy": {
+    "title": "When is Energy full?",
+    "desc": "Time until your Energy refills, for planning gathering, worker contracts or NPC talks.",
+    "cur": "Current Energy",
+    "max": "Max Energy",
+    "knowledge": "Raise max Energy for free by completing Knowledge categories.",
+    "online": "If you stay online",
+    "need": "Still to recover",
+    "points": "{n} points",
+    "offline": "If you log out",
+    "rateOn": "Online rate",
+    "rateOnV": "1 point / 3 min",
+    "rateOff": "Offline rate",
+    "rateOffV": "1 point / 1 hour",
+    "note": "Resting in a bed in your residence or at a hot spring recovers faster."
+  },
+  "dur": {
+    "full": "Full",
+    "d": "{n} d",
+    "h": "{n} h",
+    "m": "{n} min"
+  },
+  "roadmap": {
+    "title": "New account roadmap, 200 THB",
+    "sub": "Pay for the game once. Everything else comes from Season, HYPERBOOST, free quests and events.",
+    "budget": "200 THB",
+    "budgetSub": "Game Pass + 15-day Value Pack + Coupon Bundle Box",
+    "more": "More details"
+  },
+  "guide": {
+    "title": "Beginner guide",
+    "sub": "Core systems, life skills, crafting and sailing. Item and quest names come from BDOCodex.",
+    "tabs": "Guide sections",
+    "codex": "View on BDOCodex",
+    "codexTitle": "BDOCodex pages worth bookmarking",
+    "codexSub": "Links go to the SEA English section of BDOCodex, which matches the Asia server."
+  },
+  "patch": {
+    "title": "Latest Asia server updates",
+    "sub": "Patches from HYPERBOOST (30 Jul) to 12 Nov 2026, only what free and new players need.",
+    "scroll": "Patch list, scroll sideways",
+    "read": "Read the notice",
+    "watch": "Dates to remember"
+  },
+  "free": {
+    "title": "Free stuff, no top-up",
+    "sub": "Systems that look paid but have a free route. Quest and item names checked against BDOCodex."
+  },
+  "tips": {
+    "title": "Tips & tricks",
+    "sub": "Short tips that save silver and time, updated for the latest patch."
+  },
+  "about": {
+    "title": "About Northern-east heroic",
+    "p1": "We are gamers from Isan in northeastern Thailand who want to enjoy games without heavy spending, so we collect formulas, numbers and routes checked against real sources in one place.",
+    "p2": "We start with Black Desert and will add more games in the same format.",
+    "game": "Black Desert (PC), Asia server",
+    "next": "Next game in preparation",
+    "tag": "Play like Isan folk: every baht counts"
+  },
+  "footer": {
+    "disclaimer": "Fan-made site, not affiliated with Pearl Abyss. In-game icons and names are owned by Pearl Abyss. Data compiled from BDOCodex; numbers may change after updates.",
+    "sources": "Sources",
+    "onPage": "On this page",
+    "asOf": "Data as of 13 November 2026 (Asia patch 12 Nov 2026)",
+    "notice": "Asia update notices"
+  },
+  "feed": {
+    "title": "Patch feed: 3 servers",
+    "sub": "AI summaries of official Asia, Korea and Global Lab notices, checked by a person before they go live",
+    "region": {
+      "asia": "Asia",
+      "kr": "Korea",
+      "gl": "Global Lab"
+    },
+    "spoiler": "Spoiler",
+    "spoilerNote": "Korea and Global Lab get patches before Asia. What you see here may arrive later, change, or never ship.",
+    "empty": "No reviewed summaries in this section yet.",
+    "kind": {
+      "major": "Major update",
+      "hotfix": "Hotfix",
+      "maintenance": "Maintenance",
+      "event": "Event",
+      "other": "Other"
+    },
+    "conf": {
+      "medium": "Medium confidence",
+      "low": "Low confidence"
+    },
+    "f2p": "For free players:",
+    "source": "Read the original notice",
+    "howMade": "Summarized by Claude from official notices and checked by a person before publishing. If anything conflicts, trust the official notice."
+  },
+  "nav2": {
+    "tools": "Calculators",
+    "enhance": "Enhancing",
+    "coupons": "Coupons",
+    "roadmap": "Roadmap check",
+    "guide": "Guide",
+    "patch": "Updates",
+    "data": "Game data",
+    "alog": "Adventure Log"
+  },
+  "enh": {
+    "title": "Enhancing: what to start with and what it costs",
+    "sub": "Chance, materials, Cron and durability per step from real item data, checked against 2026 player guides (BlackDesertFoundry Jul 2026, GrumpyGreen Sep 2026).",
+    "startTitle": "What should a new player enhance first?",
+    "planTitle": "Plan an enhancement",
+    "planSub": "Pick a gear piece, its current level and your target. The page shows the chance, materials and Cron Stones for each step.",
+    "slot": "Type",
+    "slots": {
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "accessory": "Accessory"
+    },
+    "gear": "Choose gear",
+    "from": "Current level",
+    "to": "Target level",
+    "fs": "Failstack (FS)",
+    "fsHelp": "Each FS adds 10% of the base chance; armor and weapons slow down past 70%; hard cap 90%.",
+    "cron": "Use Cron Stones",
+    "cronHint": "Counts Cron Stones per the BDOCodex table",
+    "avgTries": "Average attempts",
+    "cronTotal": "Average Cron Stones needed",
+    "tableCaption": "Chance and materials per level",
+    "col": {
+      "level": "Level",
+      "base": "Base chance",
+      "withFs": "With FS",
+      "material": "Material per attempt",
+      "dura": "Durability on fail"
+    },
+    "safe": "Guaranteed",
+    "note": "Chances with FS follow the rules below. Since 17 Sep 2026 the in-game enhance window also shows the final chance, so you can compare.",
+    "source": "Data:",
+    "rulesTitle": "Rules used (2026 data)",
+    "rule1": "Each failstack adds 10% of the base chance, e.g. armor +8 at 17.24% gains 1.72% per FS.",
+    "rule2": "Armor and weapons: once the chance reaches 70%, each FS adds only a fifth of the normal gain, and the cap is always 90%.",
+    "rule3": "Accessories: soft caps at PRI 18 / DUO 40 / TRI 44 / TET 110 FS; past that each FS adds 2% of the base chance. A failure destroys both accessories.",
+    "rule4": "From DUO up, a failure drops one level. Cron Stones (3M each from NPCs) prevent it; accessories still have a 40% downgrade chance with Crons.",
+    "rule5": "Ancient Anvil: each failure adds Agris Essence; when it is full the next attempt is guaranteed.",
+    "tuvala": "Tuvala: +8 to +15 are high (70% down to 55%), PRI to TRI always succeed, TET is 7% and PEN 5%. Failing TET to PEN drops to TRI and Crons cannot stop it. GrumpyGreen (Sep 2026) recommends FS 60+ and reports about 30% / 35% / 40% at FS 60 / 70 / 80, lower than the general formula in the table, so trust the in-game number. TET armor: after 4 failures the 5th attempt is guaranteed."
+  },
+  "cp": {
+    "title": "Black Desert Asia coupons and codes",
+    "sub": "Checked {date}. Asia-confirmed items are kept apart from unconfirmed ones.",
+    "redeem": "Go to coupon redemption",
+    "asiaTitle": "Confirmed for Asia",
+    "asiaLead": "There is no public code for the Asia server right now. These are the code event and Twitch Drops that are running.",
+    "otherTitle": "Codes seen on other servers",
+    "otherWarn": "Not confirmed for Asia. You can try them; if the site rejects one, it belongs to another server.",
+    "otherSource": "Other-server code list from",
+    "copy": "Copy code {code}",
+    "copied": "Copied",
+    "until": "until {date}",
+    "period": "{from} to {to}",
+    "source": "Read the official notice",
+    "state": {
+      "soon": "Not started",
+      "active": "Active ({n} days left)",
+      "ending": "Ending soon ({n} days left)",
+      "expired": "Expired"
+    },
+    "evState": {
+      "soon": "Not started",
+      "active": "Running ({n} days left)",
+      "ending": "Ending soon ({n} days left)",
+      "expired": "Ended"
+    }
+  },
+  "rm": {
+    "title": "Check your roadmap",
+    "sub": "Tick what you have done; the page tells you where you are and what to do next.",
+    "next": "Your next step",
+    "allDone": "Everything is done. Nice work.",
+    "phase": "You are in phase {n}: {name}",
+    "whereTitle": "Not sure where you are?",
+    "level": "Main character level",
+    "season": "Season server",
+    "seasonNo": "Not started",
+    "seasonPlaying": "Playing Season",
+    "seasonDone": "Graduated",
+    "suggest": "Suggested: phase {n}, {name}",
+    "jump": "Open this phase",
+    "reset": "Clear checklist",
+    "storage": "Progress is saved in this browser only. Clearing browser data or switching devices starts it over.",
+    "cta": "Check your roadmap"
+  },
+  "links": {
+    "enhancePage": "Open the full enhancing page",
+    "couponsPage": "See active coupons"
+  },
+  "data": {
+    "title": "Game data for new players",
+    "sub": "12 topics you will use often, summarized from Pearl Abyss's official Adventurer's Guide and Asia server notices. Read it all here.",
+    "all": "All game data",
+    "sources": "Sources",
+    "codexMore": "more raw data",
+    "more": "More topics",
+    "home": "See all 12 game data topics"
+  },
+  "asof": {
+    "label": "Data as of November 2026",
+    "detail": "Checked against the Asia patch of 12 Nov 2026. Everything here is doable in the game today.",
+    "checked": "Last checked"
+  },
+  "al": {
+    "title": "Adventure Log checklist",
+    "lead": "Every log you can still do in the game today. Each chapter has how-to steps and rewards. Ticks are saved in this browser.",
+    "progress": "Progress",
+    "volumes": "chapters",
+    "next": "Up next:",
+    "go": "Go to it",
+    "allDone": "Every log is done. Nice work.",
+    "order": "Recommended order for a new account",
+    "filter": "Filter",
+    "showAll": "All",
+    "showTodo": "Not done",
+    "reset": "Reset progress",
+    "resetConfirm": "Clear every Adventure Log tick?",
+    "unlock": "Unlock",
+    "start": "Start at",
+    "total": "Total rewards",
+    "markAll": "Tick whole log",
+    "clearAll": "Clear this log",
+    "effort1": "Short",
+    "effort2": "Medium",
+    "effort3": "Long",
+    "community": "player guide",
+    "cta": "Open the Adventure Log checklist",
+    "where": "Location",
+    "npc": "NPC",
+    "media": "Player videos and illustrated guides",
+    "photos": "See screenshots for each chapter",
+    "videoNote": "Videos and images belong to other players and open on their sites. Some clips predate the 2026 patches: locations still hold, but some requirements may have changed, so go by the text on this page."
+  }
+}

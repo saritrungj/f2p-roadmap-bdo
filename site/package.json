@@ -1,0 +1,46 @@
+{
+  "name": "esan-adventure",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "patch:check": "node scripts/patch-watch/watch.mjs --dry-run",
+    "patch:watch": "node scripts/patch-watch/watch.ts",
+    "patch:review": "node scripts/patch-watch/approve.mjs",
+    "patch:dry": "node scripts/patch-watch/watch.ts --dry-run",
+    "patch:approve": "node scripts/patch-watch/approve.ts",
+    "patch:typecheck": "tsc -p scripts/patch-watch/tsconfig.json"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@latest"
+  },
+  "dependencies": {
+    "@fontsource/chakra-petch": "^5.3.0",
+    "@fontsource/ibm-plex-sans-thai": "^5.3.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@phosphor-icons/vue": "^2.2.1",
+    "cheerio": "^1.2.0",
+    "motion-v": "^2.12.0",
+    "nuxt": "^4.6.4",
+    "nuxt-security": "^2.7.0",
+    "vue": "^3.5.45",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@types/node": "^26.6.6",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.14"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,2280 @@
+{
+  "generatedAt": "2026-11-13T23:46:50.626Z",
+  "source": "https://bdocodex.com",
+  "gear": [
+    {
+      "id": 695116,
+      "slot": "weapon",
+      "line": "tuvala",
+      "name": {
+        "en": "Tuvala Axe",
+        "th": "ขวานทูบัลล่า"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00694116.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/695116/",
+        "th": "https://bdocodex.com/th/item/695116/"
+      },
+      "maxLevel": 25,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "18~22",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "22~26",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "25~29",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "28~32",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "30~34",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "32~36",
+          "dp": null
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "35~39",
+          "dp": null
+        },
+        {
+          "from": 7,
+          "chance": 70,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "38~42",
+          "dp": null
+        },
+        {
+          "from": 8,
+          "chance": 68,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "43~47",
+          "dp": null
+        },
+        {
+          "from": 9,
+          "chance": 67,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "48~52",
+          "dp": null
+        },
+        {
+          "from": 10,
+          "chance": 66,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "53~57",
+          "dp": null
+        },
+        {
+          "from": 11,
+          "chance": 65,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "58~62",
+          "dp": null
+        },
+        {
+          "from": 12,
+          "chance": 64,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "63~67",
+          "dp": null
+        },
+        {
+          "from": 13,
+          "chance": 60,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "68~72",
+          "dp": null
+        },
+        {
+          "from": 14,
+          "chance": 55,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "73~77",
+          "dp": null
+        },
+        {
+          "from": 15,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "78~82",
+          "dp": null
+        },
+        {
+          "from": 16,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "86~90",
+          "dp": null
+        },
+        {
+          "from": 17,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "94~98",
+          "dp": null
+        },
+        {
+          "from": 18,
+          "chance": 7,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "106~110",
+          "dp": null
+        },
+        {
+          "from": 19,
+          "chance": 5,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "114~118",
+          "dp": null
+        },
+        {
+          "from": 20,
+          "chance": 100,
+          "material": 750573,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "122~126",
+          "dp": null
+        },
+        {
+          "from": 21,
+          "chance": 1.5,
+          "material": 16004,
+          "count": 15,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "124~128",
+          "dp": null
+        },
+        {
+          "from": 22,
+          "chance": 1,
+          "material": 16004,
+          "count": 25,
+          "cron": 220,
+          "failDura": 10,
+          "ap": "126~130",
+          "dp": null
+        },
+        {
+          "from": 23,
+          "chance": 0.75,
+          "material": 16004,
+          "count": 35,
+          "cron": 260,
+          "failDura": 10,
+          "ap": "128~132",
+          "dp": null
+        },
+        {
+          "from": 24,
+          "chance": 0.6,
+          "material": 16004,
+          "count": 50,
+          "cron": 355,
+          "failDura": 10,
+          "ap": "130~134",
+          "dp": null
+        },
+        {
+          "from": 25,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "132~136",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "slot": "weapon",
+      "line": "boss",
+      "name": {
+        "en": "Kzarka Longsword",
+        "th": "ดาบยาวคจาคาร์"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00010010.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/10010/",
+        "th": "https://bdocodex.com/th/item/10010/"
+      },
+      "maxLevel": 20,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "18~22",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "22~26",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "25~29",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "28~32",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "30~34",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "32~36",
+          "dp": null
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "35~39",
+          "dp": null
+        },
+        {
+          "from": 7,
+          "chance": 90,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "38~42",
+          "dp": null
+        },
+        {
+          "from": 8,
+          "chance": 20.4081,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "43~47",
+          "dp": null
+        },
+        {
+          "from": 9,
+          "chance": 14.2857,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "48~52",
+          "dp": null
+        },
+        {
+          "from": 10,
+          "chance": 10,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "53~57",
+          "dp": null
+        },
+        {
+          "from": 11,
+          "chance": 6.6666,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "58~62",
+          "dp": null
+        },
+        {
+          "from": 12,
+          "chance": 4,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "63~67",
+          "dp": null
+        },
+        {
+          "from": 13,
+          "chance": 2.5,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "68~72",
+          "dp": null
+        },
+        {
+          "from": 14,
+          "chance": 2,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": "73~77",
+          "dp": null
+        },
+        {
+          "from": 15,
+          "chance": 11.7647,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "78~82",
+          "dp": null
+        },
+        {
+          "from": 16,
+          "chance": 7.6923,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "86~90",
+          "dp": null
+        },
+        {
+          "from": 17,
+          "chance": 6.25,
+          "material": 16004,
+          "count": 1,
+          "cron": 34,
+          "failDura": 10,
+          "ap": "94~98",
+          "dp": null
+        },
+        {
+          "from": 18,
+          "chance": 2,
+          "material": 16004,
+          "count": 1,
+          "cron": 127,
+          "failDura": 10,
+          "ap": "106~110",
+          "dp": null
+        },
+        {
+          "from": 19,
+          "chance": 0.3,
+          "material": 16004,
+          "count": 1,
+          "cron": 531,
+          "failDura": 10,
+          "ap": "114~118",
+          "dp": null
+        },
+        {
+          "from": 20,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "122~126",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 715001,
+      "slot": "weapon",
+      "line": "blackstar",
+      "name": {
+        "en": "Blackstar Longsword",
+        "th": "ดาบยาวดวงดาวรัตติกาล"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00715001.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/715001/",
+        "th": "https://bdocodex.com/th/item/715001/"
+      },
+      "maxLevel": 20,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "22~28",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "25~31",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "28~34",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "30~36",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "32~38",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "35~41",
+          "dp": null
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "38~44",
+          "dp": null
+        },
+        {
+          "from": 7,
+          "chance": 90,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "43~49",
+          "dp": null
+        },
+        {
+          "from": 8,
+          "chance": 20.4081,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "48~54",
+          "dp": null
+        },
+        {
+          "from": 9,
+          "chance": 14.2857,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "53~59",
+          "dp": null
+        },
+        {
+          "from": 10,
+          "chance": 10,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "58~64",
+          "dp": null
+        },
+        {
+          "from": 11,
+          "chance": 6.6666,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "63~69",
+          "dp": null
+        },
+        {
+          "from": 12,
+          "chance": 4,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "68~74",
+          "dp": null
+        },
+        {
+          "from": 13,
+          "chance": 2.5,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "73~79",
+          "dp": null
+        },
+        {
+          "from": 14,
+          "chance": 2,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "78~84",
+          "dp": null
+        },
+        {
+          "from": 15,
+          "chance": 13.0769,
+          "material": 752021,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": "86~92",
+          "dp": null
+        },
+        {
+          "from": 16,
+          "chance": 10.625,
+          "material": 752021,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": "94~100",
+          "dp": null
+        },
+        {
+          "from": 17,
+          "chance": 3.4,
+          "material": 752021,
+          "count": 1,
+          "cron": 100,
+          "failDura": 20,
+          "ap": "106~112",
+          "dp": null
+        },
+        {
+          "from": 18,
+          "chance": 0.51,
+          "material": 752021,
+          "count": 1,
+          "cron": 591,
+          "failDura": 20,
+          "ap": "114~120",
+          "dp": null
+        },
+        {
+          "from": 19,
+          "chance": 0.2,
+          "material": 752021,
+          "count": 1,
+          "cron": 3670,
+          "failDura": 20,
+          "ap": "122~128",
+          "dp": null
+        },
+        {
+          "from": 20,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "131~137",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 747206,
+      "slot": "weapon",
+      "line": "sovereign",
+      "name": {
+        "en": "Sovereign Blade",
+        "th": "มีดดาบราชัน"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/01_weapon/00747206.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/747206/",
+        "th": "https://bdocodex.com/th/item/747206/"
+      },
+      "maxLevel": 10,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 8.55,
+          "material": 820934,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": "133~140",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 4.12,
+          "material": 820934,
+          "count": 1,
+          "cron": 320,
+          "failDura": 20,
+          "ap": "134~141",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 2,
+          "material": 820934,
+          "count": 1,
+          "cron": 560,
+          "failDura": 20,
+          "ap": "135~142",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 0.91,
+          "material": 820934,
+          "count": 1,
+          "cron": 780,
+          "failDura": 20,
+          "ap": "136~143",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 0.469,
+          "material": 820934,
+          "count": 1,
+          "cron": 970,
+          "failDura": 20,
+          "ap": "138~145",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 0.273,
+          "material": 820934,
+          "count": 1,
+          "cron": 1350,
+          "failDura": 20,
+          "ap": "140~147",
+          "dp": null
+        },
+        {
+          "from": 6,
+          "chance": 0.16,
+          "material": 820934,
+          "count": 1,
+          "cron": 1550,
+          "failDura": 20,
+          "ap": "142~149",
+          "dp": null
+        },
+        {
+          "from": 7,
+          "chance": 0.1075,
+          "material": 820934,
+          "count": 1,
+          "cron": 2250,
+          "failDura": 20,
+          "ap": "144~151",
+          "dp": null
+        },
+        {
+          "from": 8,
+          "chance": 0.0485,
+          "material": 820934,
+          "count": 1,
+          "cron": 2760,
+          "failDura": 20,
+          "ap": "146~153",
+          "dp": null
+        },
+        {
+          "from": 9,
+          "chance": 0.0242,
+          "material": 820934,
+          "count": 1,
+          "cron": 3920,
+          "failDura": 20,
+          "ap": "148~155",
+          "dp": null
+        },
+        {
+          "from": 10,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "150~157",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 695105,
+      "slot": "armor",
+      "line": "tuvala",
+      "name": {
+        "en": "Tuvala Helmet",
+        "th": "หมวกทูบัลล่า"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/13_hel/00694105.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/695105/",
+        "th": "https://bdocodex.com/th/item/695105/"
+      },
+      "maxLevel": 25,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 7
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 10
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 13
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 16
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 19
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 22
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 25
+        },
+        {
+          "from": 7,
+          "chance": 70,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 28
+        },
+        {
+          "from": 8,
+          "chance": 68,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 31
+        },
+        {
+          "from": 9,
+          "chance": 67,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 34
+        },
+        {
+          "from": 10,
+          "chance": 66,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 37
+        },
+        {
+          "from": 11,
+          "chance": 65,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 40
+        },
+        {
+          "from": 12,
+          "chance": 64,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 43
+        },
+        {
+          "from": 13,
+          "chance": 60,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 46
+        },
+        {
+          "from": 14,
+          "chance": 55,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 49
+        },
+        {
+          "from": 15,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 52
+        },
+        {
+          "from": 16,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 57
+        },
+        {
+          "from": 17,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 62
+        },
+        {
+          "from": 18,
+          "chance": 7,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 70
+        },
+        {
+          "from": 19,
+          "chance": 5,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 75
+        },
+        {
+          "from": 20,
+          "chance": 100,
+          "material": 750573,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 80
+        },
+        {
+          "from": 21,
+          "chance": 1.5,
+          "material": 16004,
+          "count": 15,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 83
+        },
+        {
+          "from": 22,
+          "chance": 1,
+          "material": 16004,
+          "count": 25,
+          "cron": 220,
+          "failDura": 10,
+          "ap": null,
+          "dp": 87
+        },
+        {
+          "from": 23,
+          "chance": 0.75,
+          "material": 16004,
+          "count": 35,
+          "cron": 260,
+          "failDura": 10,
+          "ap": null,
+          "dp": 91
+        },
+        {
+          "from": 24,
+          "chance": 0.6,
+          "material": 16004,
+          "count": 50,
+          "cron": 355,
+          "failDura": 10,
+          "ap": null,
+          "dp": 95
+        },
+        {
+          "from": 25,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": null,
+          "dp": 99
+        }
+      ]
+    },
+    {
+      "id": 11013,
+      "slot": "armor",
+      "line": "boss",
+      "name": {
+        "en": "Giath's Helmet",
+        "th": "หมวกกีอัส"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/13_hel/00011013.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/11013/",
+        "th": "https://bdocodex.com/th/item/11013/"
+      },
+      "maxLevel": 20,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 7
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 10
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 13
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 16
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 19
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 22
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 25
+        },
+        {
+          "from": 7,
+          "chance": 17.2413,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 28
+        },
+        {
+          "from": 8,
+          "chance": 11.7647,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 31
+        },
+        {
+          "from": 9,
+          "chance": 7.6923,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 34
+        },
+        {
+          "from": 10,
+          "chance": 6.25,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 37
+        },
+        {
+          "from": 11,
+          "chance": 5,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 40
+        },
+        {
+          "from": 12,
+          "chance": 4,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 43
+        },
+        {
+          "from": 13,
+          "chance": 2.8571,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 46
+        },
+        {
+          "from": 14,
+          "chance": 2,
+          "material": 16001,
+          "count": 1,
+          "cron": 0,
+          "failDura": 5,
+          "ap": null,
+          "dp": 49
+        },
+        {
+          "from": 15,
+          "chance": 11.7647,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 52
+        },
+        {
+          "from": 16,
+          "chance": 7.6923,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 57
+        },
+        {
+          "from": 17,
+          "chance": 6.25,
+          "material": 16004,
+          "count": 1,
+          "cron": 38,
+          "failDura": 10,
+          "ap": null,
+          "dp": 62
+        },
+        {
+          "from": 18,
+          "chance": 2,
+          "material": 16004,
+          "count": 1,
+          "cron": 114,
+          "failDura": 10,
+          "ap": null,
+          "dp": 70
+        },
+        {
+          "from": 19,
+          "chance": 0.3,
+          "material": 16004,
+          "count": 1,
+          "cron": 429,
+          "failDura": 10,
+          "ap": null,
+          "dp": 75
+        },
+        {
+          "from": 20,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": null,
+          "dp": 80
+        }
+      ]
+    },
+    {
+      "id": 719901,
+      "slot": "armor",
+      "line": "blackstar",
+      "name": {
+        "en": "Blackstar Helmet",
+        "th": "หมวกดวงดาวรัตติกาล"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/13_hel/00720001.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/719901/",
+        "th": "https://bdocodex.com/th/item/719901/"
+      },
+      "maxLevel": 20,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 10
+        },
+        {
+          "from": 1,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 13
+        },
+        {
+          "from": 2,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 16
+        },
+        {
+          "from": 3,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 19
+        },
+        {
+          "from": 4,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 22
+        },
+        {
+          "from": 5,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 25
+        },
+        {
+          "from": 6,
+          "chance": 100,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 28
+        },
+        {
+          "from": 7,
+          "chance": 17.2413,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 31
+        },
+        {
+          "from": 8,
+          "chance": 11.7647,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 34
+        },
+        {
+          "from": 9,
+          "chance": 7.6923,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 37
+        },
+        {
+          "from": 10,
+          "chance": 6.25,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 40
+        },
+        {
+          "from": 11,
+          "chance": 5,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 43
+        },
+        {
+          "from": 12,
+          "chance": 4,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 46
+        },
+        {
+          "from": 13,
+          "chance": 2.8571,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 49
+        },
+        {
+          "from": 14,
+          "chance": 2,
+          "material": 16004,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": null,
+          "dp": 52
+        },
+        {
+          "from": 15,
+          "chance": 13.0769,
+          "material": 752021,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": null,
+          "dp": 57
+        },
+        {
+          "from": 16,
+          "chance": 10.625,
+          "material": 752021,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": null,
+          "dp": 62
+        },
+        {
+          "from": 17,
+          "chance": 3.4,
+          "material": 752021,
+          "count": 1,
+          "cron": 190,
+          "failDura": 20,
+          "ap": null,
+          "dp": 71
+        },
+        {
+          "from": 18,
+          "chance": 0.51,
+          "material": 752021,
+          "count": 1,
+          "cron": 570,
+          "failDura": 20,
+          "ap": null,
+          "dp": 76
+        },
+        {
+          "from": 19,
+          "chance": 0.2,
+          "material": 752021,
+          "count": 1,
+          "cron": 980,
+          "failDura": 20,
+          "ap": null,
+          "dp": 82
+        },
+        {
+          "from": 20,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": null,
+          "dp": 90
+        }
+      ]
+    },
+    {
+      "id": 719897,
+      "slot": "armor",
+      "line": "origin",
+      "name": {
+        "en": "Labreska's Helmet",
+        "th": "หมวกลาฟเรสก้า"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/13_hel/00719897.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/719897/",
+        "th": "https://bdocodex.com/th/item/719897/"
+      },
+      "maxLevel": 5,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 2,
+          "material": 752022,
+          "count": 1,
+          "cron": 0,
+          "failDura": 30,
+          "ap": null,
+          "dp": 90
+        },
+        {
+          "from": 1,
+          "chance": 1,
+          "material": 752022,
+          "count": 1,
+          "cron": 1500,
+          "failDura": 30,
+          "ap": null,
+          "dp": 93
+        },
+        {
+          "from": 2,
+          "chance": 0.5,
+          "material": 752022,
+          "count": 1,
+          "cron": 2100,
+          "failDura": 30,
+          "ap": null,
+          "dp": 96
+        },
+        {
+          "from": 3,
+          "chance": 0.2,
+          "material": 752022,
+          "count": 1,
+          "cron": 2700,
+          "failDura": 30,
+          "ap": null,
+          "dp": 99
+        },
+        {
+          "from": 4,
+          "chance": 0.0025,
+          "material": 752022,
+          "count": 1,
+          "cron": 4000,
+          "failDura": 30,
+          "ap": null,
+          "dp": 102
+        },
+        {
+          "from": 5,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": null,
+          "dp": 105
+        }
+      ]
+    },
+    {
+      "id": 719898,
+      "slot": "armor",
+      "line": "origin",
+      "name": {
+        "en": "Fallen God's Armor",
+        "th": "ชุดเกราะเทพที่ล่วงลับ"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/09_upperbody/00719898.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/719898/",
+        "th": "https://bdocodex.com/th/item/719898/"
+      },
+      "maxLevel": 5,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 2,
+          "material": 752022,
+          "count": 1,
+          "cron": 0,
+          "failDura": 30,
+          "ap": null,
+          "dp": 99
+        },
+        {
+          "from": 1,
+          "chance": 1,
+          "material": 752022,
+          "count": 1,
+          "cron": 1500,
+          "failDura": 30,
+          "ap": null,
+          "dp": 102
+        },
+        {
+          "from": 2,
+          "chance": 0.5,
+          "material": 752022,
+          "count": 1,
+          "cron": 2100,
+          "failDura": 30,
+          "ap": null,
+          "dp": 105
+        },
+        {
+          "from": 3,
+          "chance": 0.2,
+          "material": 752022,
+          "count": 1,
+          "cron": 2700,
+          "failDura": 30,
+          "ap": null,
+          "dp": 108
+        },
+        {
+          "from": 4,
+          "chance": 0.0025,
+          "material": 752022,
+          "count": 1,
+          "cron": 4000,
+          "failDura": 30,
+          "ap": null,
+          "dp": 111
+        },
+        {
+          "from": 5,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": null,
+          "dp": 114
+        }
+      ]
+    },
+    {
+      "id": 12053,
+      "slot": "accessory",
+      "line": "capotia",
+      "name": {
+        "en": "Capotia Ring",
+        "th": "แหวนคาโพเทีย"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00012053.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/12053/",
+        "th": "https://bdocodex.com/th/item/12053/"
+      },
+      "maxLevel": 5,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 35,
+          "material": 12053,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "14~14",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 15,
+          "material": 12053,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "14~14",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 10,
+          "material": 12053,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "15~15",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 6,
+          "material": 12053,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "15~15",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 2,
+          "material": 12053,
+          "count": 1,
+          "cron": 0,
+          "failDura": 10,
+          "ap": "16~16",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "17~17",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 11653,
+      "slot": "accessory",
+      "line": "deboreka",
+      "name": {
+        "en": "Deboreka Necklace",
+        "th": "สร้อยเดโบห์เรก้าร์"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/15_necklace/00011653.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/11653/",
+        "th": "https://bdocodex.com/th/item/11653/"
+      },
+      "maxLevel": 5,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 25,
+          "material": 11653,
+          "count": 1,
+          "cron": 95,
+          "failDura": 10,
+          "ap": "10~10",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 10,
+          "material": 11653,
+          "count": 1,
+          "cron": 288,
+          "failDura": 10,
+          "ap": "16~16",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 7.5,
+          "material": 11653,
+          "count": 1,
+          "cron": 865,
+          "failDura": 10,
+          "ap": "22~22",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 2.5,
+          "material": 11653,
+          "count": 1,
+          "cron": 2405,
+          "failDura": 10,
+          "ap": "28~28",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 0.5,
+          "material": 11653,
+          "count": 1,
+          "cron": 11548,
+          "failDura": 10,
+          "ap": "34~34",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "40~40",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 12140,
+      "slot": "accessory",
+      "line": "kharazad",
+      "name": {
+        "en": "Kharazad Ring",
+        "th": "แหวนคาราจาร์ด"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00012140_1.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/12140/",
+        "th": "https://bdocodex.com/th/item/12140/"
+      },
+      "maxLevel": 10,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 16.3,
+          "material": 820979,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": "16~16",
+          "dp": null
+        },
+        {
+          "from": 1,
+          "chance": 7.3,
+          "material": 820979,
+          "count": 2,
+          "cron": 120,
+          "failDura": 20,
+          "ap": "17~17",
+          "dp": null
+        },
+        {
+          "from": 2,
+          "chance": 4.57,
+          "material": 820979,
+          "count": 3,
+          "cron": 280,
+          "failDura": 20,
+          "ap": "18~18",
+          "dp": null
+        },
+        {
+          "from": 3,
+          "chance": 2.89,
+          "material": 820979,
+          "count": 4,
+          "cron": 540,
+          "failDura": 20,
+          "ap": "19~19",
+          "dp": null
+        },
+        {
+          "from": 4,
+          "chance": 1.91,
+          "material": 820979,
+          "count": 6,
+          "cron": 840,
+          "failDura": 20,
+          "ap": "20~20",
+          "dp": null
+        },
+        {
+          "from": 5,
+          "chance": 1.29,
+          "material": 820979,
+          "count": 8,
+          "cron": 1090,
+          "failDura": 20,
+          "ap": "21~21",
+          "dp": null
+        },
+        {
+          "from": 6,
+          "chance": 0.88,
+          "material": 820979,
+          "count": 10,
+          "cron": 1480,
+          "failDura": 20,
+          "ap": "22~22",
+          "dp": null
+        },
+        {
+          "from": 7,
+          "chance": 0.57,
+          "material": 820979,
+          "count": 12,
+          "cron": 1880,
+          "failDura": 20,
+          "ap": "23~23",
+          "dp": null
+        },
+        {
+          "from": 8,
+          "chance": 0.32,
+          "material": 820979,
+          "count": 15,
+          "cron": 2850,
+          "failDura": 20,
+          "ap": "24~24",
+          "dp": null
+        },
+        {
+          "from": 9,
+          "chance": 0.172,
+          "material": 820984,
+          "count": 1,
+          "cron": 3650,
+          "failDura": 20,
+          "ap": "25~25",
+          "dp": null
+        },
+        {
+          "from": 10,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "26~26",
+          "dp": null
+        }
+      ]
+    },
+    {
+      "id": 12142,
+      "slot": "accessory",
+      "line": "ekleta",
+      "name": {
+        "en": "Ekleta Ring",
+        "th": "แหวนเอเครตา"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00012142_1.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/12142/",
+        "th": "https://bdocodex.com/th/item/12142/"
+      },
+      "maxLevel": 10,
+      "levels": [
+        {
+          "from": 0,
+          "chance": 1.83,
+          "material": 821427,
+          "count": 1,
+          "cron": 0,
+          "failDura": 20,
+          "ap": "25~25",
+          "dp": 1
+        },
+        {
+          "from": 1,
+          "chance": 1.57,
+          "material": 821427,
+          "count": 1,
+          "cron": 290,
+          "failDura": 20,
+          "ap": "26~26",
+          "dp": 1
+        },
+        {
+          "from": 2,
+          "chance": 1.33,
+          "material": 821427,
+          "count": 1,
+          "cron": 590,
+          "failDura": 20,
+          "ap": "26~26",
+          "dp": 2
+        },
+        {
+          "from": 3,
+          "chance": 1.11,
+          "material": 821427,
+          "count": 1,
+          "cron": 960,
+          "failDura": 20,
+          "ap": "27~27",
+          "dp": 2
+        },
+        {
+          "from": 4,
+          "chance": 0.91,
+          "material": 821427,
+          "count": 1,
+          "cron": 1150,
+          "failDura": 20,
+          "ap": "27~27",
+          "dp": 3
+        },
+        {
+          "from": 5,
+          "chance": 0.73,
+          "material": 821427,
+          "count": 1,
+          "cron": 1420,
+          "failDura": 20,
+          "ap": "28~28",
+          "dp": 3
+        },
+        {
+          "from": 6,
+          "chance": 0.58,
+          "material": 821427,
+          "count": 1,
+          "cron": 1590,
+          "failDura": 20,
+          "ap": "28~28",
+          "dp": 4
+        },
+        {
+          "from": 7,
+          "chance": 0.44,
+          "material": 821427,
+          "count": 1,
+          "cron": 1780,
+          "failDura": 20,
+          "ap": "29~29",
+          "dp": 4
+        },
+        {
+          "from": 8,
+          "chance": 0.31,
+          "material": 821427,
+          "count": 1,
+          "cron": 2790,
+          "failDura": 20,
+          "ap": "30~30",
+          "dp": 4
+        },
+        {
+          "from": 9,
+          "chance": 0.2,
+          "material": 821427,
+          "count": 1,
+          "cron": 3130,
+          "failDura": 20,
+          "ap": "31~31",
+          "dp": 5
+        },
+        {
+          "from": 10,
+          "chance": 0,
+          "material": null,
+          "count": null,
+          "cron": 0,
+          "failDura": 0,
+          "ap": "32~32",
+          "dp": 6
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "11653": {
+      "name": {
+        "en": "Deboreka Necklace",
+        "th": "สร้อยเดโบห์เรก้าร์"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/15_necklace/00011653.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/11653/",
+        "th": "https://bdocodex.com/th/item/11653/"
+      }
+    },
+    "12053": {
+      "name": {
+        "en": "Capotia Ring",
+        "th": "แหวนคาโพเทีย"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/00_common/16_ring/00012053.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/12053/",
+        "th": "https://bdocodex.com/th/item/12053/"
+      }
+    },
+    "16001": {
+      "name": {
+        "en": "Black Stone",
+        "th": "หินดำ"
+      },
+      "icon": "/items/new_icon/03_etc/11_enchant_material/00000008.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16001/",
+        "th": "https://bdocodex.com/th/item/16001/"
+      }
+    },
+    "16004": {
+      "name": {
+        "en": "Concentrated Magical Black Stone",
+        "th": "หินดำเวทมนตร์ควบแน่น"
+      },
+      "icon": "/items/new_icon/06_pc_equipitem/03_etc/12_doapplydirectlyitem/00000018.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/16004/",
+        "th": "https://bdocodex.com/th/item/16004/"
+      }
+    },
+    "750573": {
+      "name": {
+        "en": "Time-worn Black Stone",
+        "th": "หินดำที่เวลาไหลผ่าน"
+      },
+      "icon": "/items/new_icon/03_etc/11_enchant_material/00721049.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/750573/",
+        "th": "https://bdocodex.com/th/item/750573/"
+      }
+    },
+    "752021": {
+      "name": {
+        "en": "Flawless Magical Black Stone",
+        "th": "หินดำเวทมนตร์สมบูรณ์"
+      },
+      "icon": "/items/new_icon/03_etc/00752021.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/752021/",
+        "th": "https://bdocodex.com/th/item/752021/"
+      }
+    },
+    "752022": {
+      "name": {
+        "en": "Flawless Chaotic Black Stone",
+        "th": "หินดำแห่งความสับสนไร้ที่ติ"
+      },
+      "icon": "/items/new_icon/03_etc/00752022.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/752022/",
+        "th": "https://bdocodex.com/th/item/752022/"
+      }
+    },
+    "820934": {
+      "name": {
+        "en": "Primordial Black Stone",
+        "th": "หินดำแรกกำเนิด"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/000820934.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/820934/",
+        "th": "https://bdocodex.com/th/item/820934/"
+      }
+    },
+    "820979": {
+      "name": {
+        "en": "Essence of Dawn",
+        "th": "น้ำบริสุทธิ์แห่งรุ่งสาง"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00820979.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/820979/",
+        "th": "https://bdocodex.com/th/item/820979/"
+      }
+    },
+    "820984": {
+      "name": {
+        "en": "Dawn Black Stone",
+        "th": "หินดำแห่งรุ่งสาง"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00820984.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/820984/",
+        "th": "https://bdocodex.com/th/item/820984/"
+      }
+    },
+    "821427": {
+      "name": {
+        "en": "Causality Shardstone - Ring",
+        "th": "สะเก็ดหินแห่งเหตุและผล - แหวน"
+      },
+      "icon": "/items/new_icon/03_etc/07_productmaterial/00821427.webp",
+      "url": {
+        "en": "https://bdocodex.com/seaen/item/821427/",
+        "th": "https://bdocodex.com/th/item/821427/"
+      }
+    }
+  }
+}
