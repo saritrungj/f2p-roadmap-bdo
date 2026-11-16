@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: "2026-11-01",
   devtools: { enabled: false },
+  nitro: {
+    preset: process.env.NITRO_PRESET || "cloudflare-module",
+  },
   modules: ["@nuxtjs/i18n", "nuxt-security"],
 
   // Thai at "/", English at "/en". Locale files live in i18n/locales/.

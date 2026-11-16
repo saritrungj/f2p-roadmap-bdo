@@ -180,11 +180,18 @@
     "m": "{n} min"
   },
   "roadmap": {
-    "title": "New account roadmap, 200 THB",
-    "sub": "Pay for the game once. Everything else comes from Season, HYPERBOOST, free quests and events.",
+    "title": "BDO Roadmaps: Free-to-Play & Spender Tracks",
+    "sub": "Choose the path that fits your budget and style: pure F2P (0-200 THB), smart essentials, or fast-track whale.",
     "budget": "200 THB",
     "budgetSub": "Game Pass + 15-day Value Pack + Coupon Bundle Box",
-    "more": "More details"
+    "more": "More details",
+    "chooseTrack": "Choose Playstyle Track",
+    "categoryF2p": "Free-to-Play (F2P)",
+    "categorySpender": "Spender Tracks",
+    "f2pTab": "Pure F2P (0-200 THB)",
+    "spenderEssentialTab": "Smart Spender (Essentials)",
+    "spenderWhaleTab": "Whale Track (Heavy Spender)",
+    "highlights": "Key Pillars of this Track"
   },
   "guide": {
     "title": "Beginner guide",
@@ -329,7 +336,13 @@
   },
   "rm": {
     "title": "Check your roadmap",
-    "sub": "Tick what you have done; the page tells you where you are and what to do next.",
+    "sub": "Choose your playstyle track and tick what you have done. Progress is saved per track.",
+    "track": "Playstyle track:",
+    "trackDesc": "Select the track matching your budget and goals to view personalized checklists and milestones.",
+    "f2p": "Pure F2P (0 - 200 THB)",
+    "spenderEssential": "Smart Spender (Essentials)",
+    "spenderWhale": "Whale Track (Heavy Spender)",
+    "budget": "Estimated budget:",
     "next": "Your next step",
     "allDone": "Everything is done. Nice work.",
     "phase": "You are in phase {n}: {name}",
@@ -341,8 +354,8 @@
     "seasonDone": "Graduated",
     "suggest": "Suggested: phase {n}, {name}",
     "jump": "Open this phase",
-    "reset": "Clear checklist",
-    "storage": "Progress is saved in this browser only. Clearing browser data or switching devices starts it over.",
+    "reset": "Clear this track checklist",
+    "storage": "Progress is saved in this browser only (per track). Clearing browser data will reset checks.",
     "cta": "Check your roadmap"
   },
   "links": {
